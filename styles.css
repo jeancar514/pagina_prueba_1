@@ -593,7 +593,7 @@ video{
         margin-top: 10% !important;
     }
     .shop_by_category_card{
-        margin-top: 0px !important;
+        margin-top: 30px !important;
     }
     .testimonials{
         flex-wrap: wrap;
@@ -617,6 +617,9 @@ video{
     }
     .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
         display: block !important;
+    }
+    .shop_by_category_card_titulo{
+        margin-top: 20px !important;
     }
         
     
@@ -717,7 +720,7 @@ video{
     }
     .Subscribe_to_Newsletter form input{
         margin-bottom: 15px;
-    } 
+    }
 }
 @media screen and (max-width: 470px){
     .about_us_contenido_contenedor {
