@@ -723,4 +723,7 @@ video{
         height: 30px !important;
         width: 60px !important;
     }
+    .testimonials_titulo {
+        font-size: 28px;
+    }
 }
