@@ -75,3 +75,14 @@ textarea{
     color: white;
     border: none;
 }
+
+@media screen and (max-width: 500px){
+
+    .w-75{
+        width: 100% !important;
+    }
+    .m-5{
+        margin: 80px 20px !important;
+    }
+
+}

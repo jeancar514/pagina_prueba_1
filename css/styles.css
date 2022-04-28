@@ -539,6 +539,12 @@ a{
     .w-50 {
         width: 100%!important;
     }
+    .testimonials_titulo {
+        font-size: 30px;
+    }
+    .testimonials_informacion button{
+        width: 200px;
+    }
 }
 @media screen and (max-width: 500px){
 
@@ -564,14 +570,17 @@ a{
     .Subscribe_to_Newsletter form input{
         margin-bottom: 15px;
     }
+    .about_us_titulo_img{
+        display: none;
+    }
+    .testimonials_titulo {
+        font-size: 32px;
+    }
+
 }
 @media screen and (max-width: 470px){
 
     .hero_top_boton{
         width: 200px !important;
-    }
-
-    .testimonials_titulo {
-        font-size: 28px;
     }
 }
