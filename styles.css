@@ -461,7 +461,6 @@ video{
 .owl-dots{
     display: none;
 }
-ol
 /*------- Subscribe_to_Newsletter -------*/
 .Subscribe_to_Newsletter h2{
     font-family: Poppins-BoldItalic;
@@ -557,8 +556,8 @@ ol
     display: none !important;
 }
 .about_us_titulo_img{
-    height: 50px !important;
-    width: 100px !important;;  
+    height: 30px !important;
+    width: 60px !important;;  
 }
 
 @media screen and (max-width: 1200px){
@@ -707,17 +706,21 @@ ol
         height: 1000px;
     }
     .about_us_caracteristicas{
-        margin-top: 700px;
+        margin-top: 800px;
     } 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 470px){
     .about_us_contenido_contenedor {
         height: 1200px;
     }
     .about_us_caracteristicas{
-        margin-top: 900px;
+        margin-top: 1000px;
     }
     .hero_top_boton{
         width: 200px !important;
+    }
+    .about_us_titulo_img {
+        height: 30px !important;
+        width: 60px !important;
     }
 }
