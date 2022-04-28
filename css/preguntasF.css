@@ -30,6 +30,14 @@ body{
 .preguntas_frecuentes{
     margin: 100px 0px !important;
 }
+.preguntas_frecuentes_titulo{
+    font-family: Poppins-BoldItalic;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #971F5F;
+}
 .card-header {
     width: 100%;
     border-radius: 15px;
@@ -51,18 +59,26 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    border: none;
-    outline: none;
+    border: none !important;
+    outline: none !important;
 }
 .btn-link:hover {
     color: #dcdbdb;
     text-decoration: none;
-    outline: none;
+    outline: none !important;
+    border: none !important;
 }
 .btn-link:active {
     color: #dcdbdb;
     text-decoration: none;
-    outline: none;
+    outline: none !important;
+    border: none !important;
+}
+.btn-link:active {
+    color: #dcdbdb;
+    text-decoration: none;
+    outline: none !important;
+    border: none !important;
 }
 .card-body{
     width: 100%;

@@ -44,12 +44,21 @@ body{
 input{
     background-color: #31313120 !important;
     box-shadow: -4px 3px 0px 0px #30053780 !important;
+    font-family: Poppins-Bold;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+
 }
 textarea{
     background-color: #31313120;
     box-shadow: -4px 3px 0px 0px #30053780 !important;
     border: none;
     outline: none;
+    font-family: Poppins-Bold;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
 }
 
 .btn {
