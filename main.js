@@ -54,3 +54,10 @@ window.addEventListener('scroll', () => {
         header.classList.remove('header_color');
     } 
 });
+
+const botonNav = document.querySelector('.navbar-toggler');
+const navbar = document.getElementById('navbarNav');
+
+botonNav.addEventListener('click', () => {
+    navbar.classList.toggle('collapse');
+});
