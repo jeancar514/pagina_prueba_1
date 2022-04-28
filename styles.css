@@ -704,6 +704,9 @@ video{
     }
     .about_us_caracteristicas{
         margin-top: 800px;
+    }
+    .header_top{
+        display: none;
     } 
 }
 @media screen and (max-width: 470px){
