@@ -706,7 +706,7 @@ video{
         margin-top: 800px;
     }
     .header_top{
-        display: none;
+        display: none !important;
     } 
 }
 @media screen and (max-width: 470px){
