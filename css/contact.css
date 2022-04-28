@@ -1,0 +1,68 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: white;
+}
+
+@font-face {
+    font-family: Poppins-ExtraBoldItalic;
+    src: url('../PRUEBA/FUENTES/Poppins-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: Ubuntu-BoldItalic;
+    src: url('../PRUEBA/FUENTES/Ubuntu-BoldItalic.ttf');
+}
+@font-face {
+    font-family: Poppins-BoldItalic;
+    src: url('../PRUEBA/FUENTES/Poppins-BoldItalic.ttf');
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../PRUEBA/FUENTES/Poppins-Bold.ttf');
+}
+.contact_titulo{
+    font-family: Poppins-BoldItalic;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #971F5F;
+}
+
+.titulo_img {
+    height: 50px !important;
+    width: 100px !important;
+}
+
+
+input{
+    background-color: #31313120 !important;
+    box-shadow: -4px 3px 0px 0px #30053780 !important;
+}
+textarea{
+    background-color: #31313120;
+    box-shadow: -4px 3px 0px 0px #30053780 !important;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    height: 52px;
+    width: 150px;
+    border-radius: 15px;
+    background: #FF9900;
+    box-shadow: -4px 3px 0px 0px #30053780;
+    font-family: Poppins-ExtraBoldItalic;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    border: none;
+}

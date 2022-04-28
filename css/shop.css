@@ -1,0 +1,65 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: white;
+}
+
+@font-face {
+    font-family: Poppins-ExtraBoldItalic;
+    src: url('../PRUEBA/FUENTES/Poppins-ExtraBoldItalic.ttf');
+}
+@font-face {
+    font-family: Ubuntu-BoldItalic;
+    src: url('../PRUEBA/FUENTES/Ubuntu-BoldItalic.ttf');
+}
+@font-face {
+    font-family: Poppins-BoldItalic;
+    src: url('../PRUEBA/FUENTES/Poppins-BoldItalic.ttf');
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../PRUEBA/FUENTES/Poppins-Bold.ttf');
+}
+.shop_titulo{
+    font-family: Poppins-BoldItalic;
+    font-size: 45px;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #971F5F;
+}
+.shop_titulo_principal{
+    font-family: Poppins-BoldItalic;
+    font-size: 70px;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #971F5F;
+}
+.shop_short{
+    background: #971F5F17;
+
+}
+.bi-arrow-left-square-fill{
+    font-size: 3em;
+    color: white;
+}
+.bi-arrow-right-square-fill{
+    font-size: 3em;
+    color: white !important;
+}
+
+.owl-carousel .owl-stage {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+.owl-carousel .caption {
+    text-align: center !important;
+}

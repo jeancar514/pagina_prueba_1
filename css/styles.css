@@ -11,11 +11,11 @@ body{
 }
 @font-face {
     font-family: Poppins-ExtraBoldItalic;
-    src: url('PRUEBA/FUENTES/Poppins-ExtraBoldItalic.ttf');
+    src: url('../PRUEBA/FUENTES/Poppins-ExtraBoldItalic.ttf');
 }
 @font-face {
     font-family: Ubuntu-BoldItalic;
-    src: url('PRUEBA/FUENTES/Ubuntu-BoldItalic.ttf');
+    src: url('../PRUEBA/FUENTES/Ubuntu-BoldItalic.ttf');
 }
 header{
     width: 100%;
@@ -170,7 +170,7 @@ video{
 /*------ Best seller ------*/
 @font-face {
     font-family: Poppins-BoldItalic;
-    src: url('PRUEBA/FUENTES/Poppins-BoldItalic.ttf');
+    src: url('../PRUEBA/FUENTES/Poppins-BoldItalic.ttf');
 }
 .best_sellers{
     margin: 100px 0px;
@@ -496,7 +496,7 @@ video{
 /*------- Footer -------*/
 @font-face {
     font-family: Poppins-Bold;
-    src: url('PRUEBA/FUENTES/Poppins-Bold.ttf');
+    src: url('../PRUEBA/FUENTES/Poppins-Bold.ttf');
 }
 .footer_info{
     background: linear-gradient(89.71deg, #300537 23.22%, #971F5F 92.95%);

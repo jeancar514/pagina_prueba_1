@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/preguntasF.css">
+    <link rel="stylesheet" href="./font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="fixed-top header">
+        <div class="d-flex flex-row-reverse bd-highlight mb-3">
+            <div class="header_top d-flex flex-row">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row">
+                    <li class="nav-item">
+                        <i class="bi bi-envelope-fill"></i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-telephone-fill"></i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-zoom-out"></i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="bi bi-cart"></i>
+                    </li>
+                </ul> 
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-lightp">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"  id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop By</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preguntasF.html">Faq’s </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <a class="navbar-brand" href="#">
+                <img src="PRUEBA/IMAGENES/LOGO-COLOR.png" alt="" id="nav_logo">
+            </a>
+        </div>
+    </header>
+    <div class="hero">
+        <video autoplay loop muted pay>
+            <source src="PRUEBA/IMAGENES/video.mp4" type="video/mp4">
+          </video>
+        <div class="hero_panel_color_uno">
+        </div class>
+        <div class="hero_panel_color_dos"></div>
+        <div class="d-flex flex-column hero_top">
+            <h1 class="hero_top_titulo">
+                Lead the pack! <br> Run Run!
+            </h1>
+            <button class="hero_top_boton">
+                Get Started
+            </button>
+        </div>
+        <ul class="hero_redes_sociales d-flex flex-row">
+            <li class="hero_redes_sociales_item">
+                <i class="bi bi-facebook"></i>  
+            </li>
+            <li class="hero_redes_sociales_item w-25">
+                <i class="bi bi-instagram"></i>
+            </li>
+            <li class="hero_redes_sociales_item">
+                <i class="bi bi-youtube"></i>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="preguntas_frecuentes">
+    <div class="d-flex flex-row">
+        <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="about_us_titulo_img" alt="titulo_img">
+        <h2 class="contact_titulo">Faq’s</h2>
+    </div>
+    <div class="accordion m-5 " id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Is it safe to use my credit card on the website? #1              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                Yes, all your data is sent fully encrypted. And the entire system is automated and secure.          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Can I exchange my items? #2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                Yes, as long as the clothing is in perfect condition and no more than 5 days have elapsed since the purchase, the condition of the clothing will be evaluated and you will be allowed to exchange it for something of the same or greater value (you will have to pay the difference) .            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Home deliveries are made? #3
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Yes, if in a nearby place our shipping team will take care of it, if the place is very far away it is sent through an agency with which we are associated
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<section class="Subscribe_to_Newsletter d-flex flex-column justify-content-center align-items-center my-5">
+    <h2>Subscribe to Newsletter</h2>
+    <form class="d-flex flex-row flex-wrap justify-content-center align-content-center ">
+        <input type="text" placeholder="" class="mx-1">
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <button class="mx-2 text-center ">Subscribe</button>
+        </div>
+    </form>
+</section>
+<footer class="d-flex flex-column mt-5">
+    <div class="d-flex flex-row  mt-5 footer_info flex-wrap pt-5">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
+            <ul class="d-flex flex-row list-unstyled">
+                <li class="mx-2">
+                    <i class="bi bi-facebook"></i>
+                </li>
+                <li class="mx-2">
+                    <i class="bi bi-instagram"></i>
+                </li>
+                <li class="mx-2">
+                    <i class="bi bi-linkedin"></i>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h6>Quick Links</h6>
+            <ul>
+                <li>About Us</li>
+                <li>Shop By Category</li>
+                <li>Services </li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div>
+            <h6>More Information</h6>
+            <ul>
+                <li class="list-unstyled d-flex flex-row">
+                    <i class="bi bi-geo-alt-fill mx-2"></i>
+                    <p>
+                        5191 Eastside Hwy
+                        Stevensville, MT 59870
+                    </p> 
+                </li>
+                <li class="list-unstyled d-flex flex-row">
+                    <i class="bi bi-envelope-fill mx-2"></i>
+                    <p>info@glamping.global</p>
+                </li>
+                <li class="list-unstyled d-flex flex-row2">
+                    <i class="bi bi-telephone-fill mx-2"></i>
+                    <p>Tel: 1-844-WEGLAMP</p> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="d-flex flex-row flex-wrap justify-content-between align-items-center footer_b p-4">
+        <p>Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
+        <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt=""">
+    </div>
+</footer>
+<script src="./owl/jquery.min.js"></script>
+<script src="./owl/owl.carousel.min.js"></script>
+<script src="bootstrap-4.6.1/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>
