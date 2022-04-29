@@ -41,7 +41,8 @@ body{
 }
 
 
-input{
+.contacto input{
+    height: 80px;
     background-color: #31313120 !important;
     box-shadow: -4px 3px 0px 0px #30053780 !important;
     font-family: Poppins-Bold;
@@ -50,7 +51,8 @@ input{
     letter-spacing: 0.1em;
 
 }
-textarea{
+.contacto textarea{
+    height: 80px;
     background-color: #31313120;
     box-shadow: -4px 3px 0px 0px #30053780 !important;
     border: none;
@@ -74,6 +76,15 @@ textarea{
     text-align: center;
     color: white;
     border: none;
+    transform: skew(-10deg  , 0deg);
+}
+.btn:hover {
+    background: #ff790c;
+    color: white;
+}
+
+.Newsletter_conctact{
+    background-color: #c711725e;
 }
 
 @media screen and (max-width: 500px){

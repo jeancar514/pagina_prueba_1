@@ -11,63 +11,73 @@
     <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
-    <header class="fixed-top header">
-        <div class="d-flex flex-row-reverse bd-highlight mb-3">
-            <div class="header_top d-flex flex-row">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row">
-                    <li class="nav-item">
-                        <i class="bi bi-envelope-fill"></i>
+    <header class=" container-fluid fixed-top justify-content-between align-items-center header">
+        <div class="d-flex flex-row-reverse bd-highlight">
+            <div class="header_top d-flex flex-row flex-grow-1 justify-content-center align-items-center">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row ">
+                    <li class="nav-item d-none d-lg-block">
+                        <a href="https://mail.google.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-envelope-fill header_top_nav"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a href="https://www.google.com/maps/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-geo-alt-fill header_top_nav"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item  d-none d-lg-block">
+                        <a href="https://web.whatsapp.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-telephone-fill header_top_nav"></i>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <i class="bi bi-geo-alt-fill"></i>
+                        <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-search header_top_nav"></i>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <i class="bi bi-telephone-fill"></i>
-                    </li>
-                    <li class="nav-item">
-                        <i class="bi bi-zoom-out"></i>
-                    </li>
-                    <li class="nav-item">
-                        <i class="bi bi-cart"></i>
+                        <a class="nav_redes_sociales" href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-cart header_top_nav"></i>
+                        </a>
                     </li>
                 </ul> 
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-lightp">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm navbar-light flex-grow-1">
+                <div class="container-fluid d-flex justify-content-center align-items-center">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse"  id="navbarNav">
+                <div class="collapse navbar-collapse container-fluid d-flex justify-content-center align-items-center"  id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop By</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="F.html">Faq’s </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="F.html">Contact Us</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop By</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="preguntasF.html">Faq’s </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
                 </div>
             </nav>
             <a class="navbar-brand" href="index.html">
-                <img src="PRUEBA/IMAGENES/LOGO-COLOR.png" alt="" id="nav_logo">
+                <img src="PRUEBA/IMAGENES/LOGO-COLOR2.png" alt="" id="nav_logo">
             </a>
         </div>
     </header>
-    <div class="hero mb-5">
-        <video autoplay loop muted pay>
+    <section class=" d-flex flex-column align-items-end justify-content-center h-100 m-0 hero">
+        <video autoplay loop muted pay class="w-100 h-100  position-absolute  ">
             <source src="PRUEBA/IMAGENES/video.mp4" type="video/mp4">
           </video>
-        <div class="hero_panel_color_uno">
+        <div class="hero_panel_color_uno position-absolute h-100">
         </div class>
-        <div class="hero_panel_color_dos"></div>
-        <div class="d-flex flex-column hero_top">
+        <div class="hero_panel_color_dos position-absolute h-100"></div>
+        <div class="w-100 d-flex flex-column justify-content-center align-items-end hero_top flex-grow-1">
             <h1 class="hero_top_titulo">
                 Lead the pack! <br> Run Run!
             </h1>
@@ -75,20 +85,25 @@
                 Get Started
             </button>
         </div>
-        <ul class="hero_redes_sociales d-flex flex-row">
-            <li class="hero_redes_sociales_item">
-                <i class="bi bi-facebook"></i>  
+        <ul class="hero_redes_sociales d-flex flex-row ">
+            <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i> 
+                </a>
             </li>
-            <li class="hero_redes_sociales_item w-25">
-                <i class="bi bi-instagram"></i>
+            <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
             </li>
-            <li class="hero_redes_sociales_item">
-                <i class="bi bi-youtube"></i>
+            <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-youtube"></i>
+                </a>
             </li>
         </ul>
-    </div>
-</section>
-<section class="contacto m-5">
+    </section>
+<section class="contacto my-5">
     <div class="d-flex flex-row">
         <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="about_us_titulo_img" alt="titulo_img">
         <h2 class="contact_titulo">Contact</h2>
@@ -103,15 +118,15 @@
                 <input type="text" class="form-control  border-0 w-100 shadow-sm p-3 my-4 rounded-lg" placeholder="Enter phone">
             </div>
             <div class="form-group">
-                <textarea class="border-0 w-100 shadow-sm p-3 rounded-lg my-4" name=""  placeholder="message" wid></textarea>
+                <textarea class="border-0 w-100 shadow-sm p-3 rounded-lg my-4" name=""  placeholder="Message" wid></textarea>
             </div>
             <button type="submit " class="btn ">Submit</button>
         </form>
     </div>
 </section>
-<section class="Subscribe_to_Newsletter d-flex flex-column justify-content-center align-items-center my-5">
+<section class="Subscribe_to_Newsletter Newsletter_conctact d-flex flex-column justify-content-center align-items-center my-5 py-5">
     <h2>Subscribe to Newsletter</h2>
-    <form class="d-flex flex-row flex-wrap justify-content-center align-content-center ">
+    <form class="container d-flex flex-row flex-wrap justify-content-center align-content-center ">
         <input type="text" placeholder="" class="mx-1">
         <div class="d-flex flex-row justify-content-center align-items-center">
             <button class="mx-2 text-center ">Subscribe</button>
@@ -119,18 +134,26 @@
     </form>
 </section>
 <footer class="d-flex flex-column mt-5">
-    <div class="d-flex flex-row  mt-5 footer_info flex-wrap pt-5">
+    <div class="d-flex flex-row  mt-5 footer_info flex-wrap pt-4">
         <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
+            <a href="index.html" target="_blank" rel="noopener noreferrer">
+                <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
+            </a>
             <ul class="d-flex flex-row list-unstyled">
                 <li class="mx-2">
-                    <i class="bi bi-facebook"></i>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-facebook"></i>
+                    </a>
                 </li>
                 <li class="mx-2">
-                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
                 </li>
                 <li class="mx-2">
-                    <i class="bi bi-linkedin"></i>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -138,15 +161,19 @@
             <h6>Quick Links</h6>
             <ul>
                 <li >
+                    <span class="punto"></span>
                     <a aria-current="page" href="about.html">About us</a>
                 </li>
                 <li >
+                    <span class="punto "></span>
                     <a  href="shop.html">Shop By</a>
                 </li>
                 <li class=>
+                    <span class="punto"></span>
                     <a  href="preguntasF.html">Faq’s </a>
                 </li>
                 <li >
+                    <span class="punto"></span>
                     <a  href="contact.html">Contact Us</a>
                 </li>
             </ul>
@@ -155,26 +182,34 @@
             <h6>More Information</h6>
             <ul>
                 <li class="list-unstyled d-flex flex-row">
-                    <i class="bi bi-geo-alt-fill mx-2"></i>
-                    <p>
-                        5191 Eastside Hwy
-                        Stevensville, MT 59870
-                    </p> 
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-geo-alt-fill mx-2"></i>
+                        <p>
+                            5191 Eastside Hwy
+                            Stevensville, MT 59870
+                        </p>
+                    </a>
                 </li>
                 <li class="list-unstyled d-flex flex-row">
-                    <i class="bi bi-envelope-fill mx-2"></i>
-                    <p>info@glamping.global</p>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-envelope-fill mx-2"></i>
+                        <p>info@glamping.global</p>
+                    </a>
                 </li>
                 <li class="list-unstyled d-flex flex-row2">
-                    <i class="bi bi-telephone-fill mx-2"></i>
-                    <p>Tel: 1-844-WEGLAMP</p> 
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-telephone-fill mx-2"></i>
+                        <p>Tel: 1-844-WEGLAMP</p>
+                    </a> 
                 </li>
             </ul>
         </div>
     </div>
     <div class="d-flex flex-row flex-wrap justify-content-between align-items-center footer_b p-4">
         <p>Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
-        <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt=""">
+        <a href="https://josesilvera.com/" target="_blank" rel="noopener noreferrer">
+            <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt="">
+        </a>
     </div>
 </footer>
 <script src="bootstrap-4.6.1/dist/js/bootstrap.min.js"></script>

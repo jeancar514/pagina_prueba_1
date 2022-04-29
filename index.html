@@ -12,73 +12,73 @@
     <link rel="stylesheet" href="./owl/owl.theme.default.min.css">
 </head>
 <body>
-    <header class="container-fluid w-100 fixed-top header">
-        <div class="d-flex flex-row-reverse bd-highlight flex-wrap">
+    <header class=" container-fluid fixed-top justify-content-between align-items-center header">
+        <div class="d-flex flex-row-reverse bd-highlight">
             <div class="header_top d-flex flex-row flex-grow-1 justify-content-center align-items-center">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row">
-                    <li class="nav-item">
-                        <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-envelope-fill"></i> 
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row ">
+                    <li class="nav-item d-none d-lg-block">
+                        <a href="https://mail.google.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-envelope-fill header_top_nav"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a href="https://www.google.com/maps/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-geo-alt-fill header_top_nav"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item  d-none d-lg-block">
+                        <a href="https://web.whatsapp.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-telephone-fill header_top_nav"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-geo-alt-fill"></i>
+                        <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-search header_top_nav"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-telephone-fill"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-zoom-out"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-cart"></i>
+                        <a class="nav_redes_sociales" href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-cart header_top_nav"></i>
                         </a>
                     </li>
                 </ul> 
             </div>
             <nav class="navbar navbar-expand-sm navbar-light flex-grow-1">
-                <div class="container-fluid w-100 h-100 d-flex flex-row justify-content-center align-items-center">
-                    <button class="navbar-toggler flex-grow-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse d-flex flex-row  justify-content-center align-items-center"  id="navbarNav">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item my-2">
-                                <a class="nav-link active" aria-current="page" href="about.html">About us</a>
-                            </li>
-                            <li class="nav-item my-2">
-                                <a class="nav-link" href="shop.html">Shop By</a>
-                            </li>
-                            <li class="nav-item my-2">
-                                <a class="nav-link" href="preguntasF.html">Faq’s </a>
-                            </li>
-                            <li class="nav-item my-2">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="container-fluid d-flex justify-content-center align-items-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse container-fluid d-flex justify-content-center align-items-center"  id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop By</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="preguntasF.html">Faq’s </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
                 </div>
             </nav>
             <a class="navbar-brand" href="index.html">
-                <img src="PRUEBA/IMAGENES/LOGO-COLOR.png" alt="" id="nav_logo">
+                <img src="PRUEBA/IMAGENES/LOGO-COLOR2.png" alt="" id="nav_logo">
             </a>
         </div>
     </header>
-    <div class="hero">
-        <video autoplay loop muted pay>
+    <section class=" d-flex flex-column align-items-end justify-content-center h-100 m-0 hero">
+        <video autoplay loop muted pay class="w-100 h-100  position-absolute  ">
             <source src="PRUEBA/IMAGENES/video.mp4" type="video/mp4">
           </video>
-        <div class="hero_panel_color_uno">
+        <div class="hero_panel_color_uno position-absolute h-100">
         </div class>
-        <div class="hero_panel_color_dos"></div>
-        <div class="d-flex flex-column hero_top">
+        <div class="hero_panel_color_dos position-absolute h-100"></div>
+        <div class="w-100 d-flex flex-column justify-content-center align-items-end hero_top flex-grow-1">
             <h1 class="hero_top_titulo">
                 Lead the pack! <br> Run Run!
             </h1>
@@ -86,46 +86,61 @@
                 Get Started
             </button>
         </div>
-        <ul class="hero_redes_sociales d-flex flex-row">
-            <li class="hero_redes_sociales_item">
-                <i class="bi bi-facebook"></i>  
+        <ul class="hero_redes_sociales d-flex flex-row ">
+            <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i> 
+                </a>
             </li>
-            <li class="hero_redes_sociales_item w-25">
-                <i class="bi bi-instagram"></i>
+            <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
             </li>
-            <li class="hero_redes_sociales_item">
-                <i class="bi bi-youtube"></i>
+            <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-youtube"></i>
+                </a>
             </li>
         </ul>
-    </div>
-    <section class="best_sellers">
+    </section>
+    <section class="best_sellers ">
         <div class="d-flex flex-row">
-            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="about_us_titulo_img" alt="about_us_titulo_img">
-            <h2 class="best_sellers_titulo">BEST SELLERS</h2>
+            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="titulo_img" alt="seccion_titulo_img">
+            <h2 class="seccion_titulo">BEST SELLERS</h2>
         </div>
-        <div class=" w-30 d-flex flex-column justify-content-center align-items-center">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
             <div class=" owl-1 owl-carousel owl-theme  ">
-                <div class="item">
+                <div class="item m-5">
                     <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
                         <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
+                        <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                            <i class="bi bi-cart "></i>
+                        </div>
                         <h4>100$</h4>
                         <div class="best_sellers_card-body ">
                             Adidas shoes
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item m-5">
                     <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
                         <img src="PRUEBA/IMAGENES/PRODUCTO 2.jpg" class="card-img-top mt-3" alt="...">
+                        <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                            <i class="bi bi-cart "></i>
+                        </div>
                         <h4>100$</h4>
                         <div class="best_sellers_card-body ">
                             Sport short
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item m-5">
                     <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
                         <img src="PRUEBA/IMAGENES/PRODUCTO 3.jpg" class="card-img-top mt-3" alt="...">
+                        <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                            <i class="bi bi-cart "></i>
+                        </div>
                         <h4>100$</h4>
                         <div class="best_sellers_card-body ">
                             Running T-shirt
@@ -138,13 +153,75 @@
             </button>
         </div>
     </section>
+    <section class="about_us w-100 d-flex">
+        <div class="about_us_contenido_contenedor">
+            <div class=" d-flex flex-row">
+                <img src="PRUEBA/IMAGENES/Rectangle 5 (1).png" class="about_us_titulo_img" alt="about_us_titulo_img">
+                <h2 class="about_us_titulo">ABOUT US</h2>
+            </div>
+            <div class="container about_us_informacion">
+                <article >
+                    <h6>W</h6> 
+                    <p>
+                        e are a leading company in the sports implements 
+                        and articles market that seeks to position itself 
+                        in the American Continent, providing high-quality 
+                        products for the practice of sports, both 
+                        professionally and recreationally, offering 
+                        solutions for different needs, using a technological 
+                        platform that simplifies and facilitate the processes 
+                        of the different areas, committed to supporting the 
+                        mental and physical health of our public.
+                    </p>
+                </article>
+                <article>
+                    <h6>W</h6> 
+                    <p>
+                        We provide solutions in the field of sports at a 
+                        national and international level through innovation,
+                        service and quality of the products we offer, our 
+                        resources are destined to contribute to the 
+                        development of physical and mental health, thus 
+                        achieving the commitment acquired with our target 
+                        audience.
+                    </p>
+                </article>
+                <button class="about_us_boton mt-5">
+                    Read  More
+                </button>
+            </div>
+        </div>
+        <img src="PRUEBA/IMAGENES/ABOUT (2).jpg" class="about_us_img" alt="">
+        <div class="about_us_caracteristicas d-flex flex-row justify-content-center align-items-center">
+            <ul class="d-flex flex-row mb-0">
+                <li class="d-flex flex-row justify-content-center align-items-center mx-2">
+                    <div class="d-flex flex-row justify-content-center align-items-center mx-2">
+                        <img src="PRUEBA/IMAGENES/icon--.png" alt="">
+                    </div>
+                    <p>Support</p>
+                </li>
+                <li class="d-flex flex-row justify-content-center align-items-center mx-2">
+                    <div class="d-flex flex-row justify-content-center align-items-center mx-2">
+                        <img src="PRUEBA/IMAGENES/icon-2-2.png" alt="">
+                    </div>
+                    <p>Good Lead</p>
+                </li>
+                <li class="d-flex flex-row justify-content-center align-items-center mx-2">
+                    <div class="d-flex flex-row justify-content-center align-items-center mx-2">
+                        <img src="PRUEBA/IMAGENES/icon-3-2.png" alt="">
+                    </div>
+                    <p>Quality</p>
+                </li>
+            </ul>
+        </div>
+    </section>
     
     <section class="shop_by_category my-5 ">
         <div class="d-flex flex-row">
-            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="about_us_titulo_img" alt="about_us_titulo_img">
+            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="titulo_img" alt="titulo_img">
             <h2 class="shop_by_category_titulo">SHOP BY CATEGORY</h2>
         </div>
-        <div class="shop_by_category_container d-flex flex-row justify-content-center align-items-center ">
+        <div class=" shop_by_category_container d-flex flex-row justify-content-center align-items-center ">
             <div class="shop_by_category_card d-flex flex-column justify-content-between align-items-center ">
                 <div class="shop_by_category_card_img mx-3">
                     <img src="PRUEBA/IMAGENES/CATEGORIA 1.jpg" class="card-img-top" alt="...">
@@ -170,54 +247,66 @@
                 </div>
             </div>
         </div>
+        <button class="shop_by_category_boton border-0  position-absolute">
+            View More
+        </button>
     </section>
-    <section class="testimonials my-5 py-5 d-flex flex-row">
-        <div class="w-50 m-5 testimonials_informacion">
-            <div class="d-flex flex-row">
-                <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="about_us_titulo_img" alt="about_us_titulo_img">
-                <h2 class="testimonials_titulo">Testimonials</h2>
-            </div>
-            <p class="d-inline" >
-                <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
-            </p>
-            <button class="border-0">View More</button>
-        </div>
+    <section class="testimonials d-flex flex-column pt-5">
         <div class="testimonials_panel_color_uno">
         </div class>
         <div class="testimonials_panel_color_dos"></div>
-        <div class="w-50 d-flex justify-content-center align-items-center" >
-            <div class="owl-2 owl-carousel owl-theme">
-                <div class="item">
-                    <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+        <div class="d-flex flex-row">
+            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class=" about_us_titulo_img" alt="about_us_titulo_img">
+            <h2 class="testimonials_titulo">Testimonials</h2>
+        </div>
+        <div class="w-100 d-flex justify-content-center align-items-center" >
+            <div class="container owl-2 owl-carousel owl-theme">
+                <div class="item d-flex justify-content-around py-1">
+                    <div class="w-50 p-5  mt-5 testimonials_informacion">
+                        <p class="d-inline" >
+                            <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
+                        </p>
+                        <button class="testimonials_boton border-0 mt-5">View More</button>
+                    </div>
+                    <div class="card best_sellers_card testimonials_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
                         <img src="PRUEBA/IMAGENES/person_3.png" class="card-img-top mt-3" alt="...">
-                        <h4>100$</h4>
                         <div class="best_sellers_card-body ">
-                            Adidas shoes
+                            Jhon Smith
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                <div class="item d-flex ">
+                    <div class="w-50 p-5  mt-5 testimonials_informacion">
+                        <p class="d-inline" >
+                            <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
+                        </p>
+                        <button class="testimonials_boton border-0 mt-5">View More</button>
+                    </div>
+                    <div class="card best_sellers_card testimonials_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
                         <img src="PRUEBA/IMAGENES/person_3.png" class="card-img-top mt-3" alt="...">
-                        <h4>100$</h4>
                         <div class="best_sellers_card-body ">
-                            Sport short
+                            Jhon Smith
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                <div class="item d-flex ">
+                    <div class="w-50 p-5  mt-5 testimonials_informacion">
+                        <p class="d-inline" >
+                            <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
+                        </p>
+                        <button class="testimonials_boton border-0 mt-5">View More</button>
+                    </div>
+                    <div class="card best_sellers_card testimonials_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
                         <img src="PRUEBA/IMAGENES/person_3.png" class="card-img-top mt-3" alt="...">
-                        <h4>100$</h4>
                         <div class="best_sellers_card-body ">
-                            Running T-shirt
+                            Jhon Smith
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="Subscribe_to_Newsletter d-flex flex-column justify-content-center align-items-center my-5">
+    <section class="Subscribe_to_Newsletter container d-flex flex-column justify-content-center align-items-center my-5 py-5">
         <h2>Subscribe to Newsletter</h2>
         <form class="d-flex flex-row flex-wrap justify-content-center align-content-center ">
             <input type="text" placeholder="" class="mx-1">
@@ -227,18 +316,26 @@
         </form>
     </section>
     <footer class="d-flex flex-column mt-5">
-        <div class="d-flex flex-row  mt-5 footer_info flex-wrap pt-5">
+        <div class="d-flex flex-row  mt-5 footer_info flex-wrap pt-4">
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
+                <a href="index.html" target="_blank" rel="noopener noreferrer">
+                    <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
+                </a>
                 <ul class="d-flex flex-row list-unstyled">
                     <li class="mx-2">
-                        <i class="bi bi-facebook"></i>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-facebook"></i>
+                        </a>
                     </li>
                     <li class="mx-2">
-                        <i class="bi bi-instagram"></i>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram"></i>
+                        </a>
                     </li>
                     <li class="mx-2">
-                        <i class="bi bi-linkedin"></i>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -246,15 +343,19 @@
                 <h6>Quick Links</h6>
                 <ul>
                     <li >
+                        <span class="punto"></span>
                         <a aria-current="page" href="about.html">About us</a>
                     </li>
                     <li >
+                        <span class="punto "></span>
                         <a  href="shop.html">Shop By</a>
                     </li>
                     <li class=>
+                        <span class="punto"></span>
                         <a  href="preguntasF.html">Faq’s </a>
                     </li>
                     <li >
+                        <span class="punto"></span>
                         <a  href="contact.html">Contact Us</a>
                     </li>
                 </ul>
@@ -263,26 +364,34 @@
                 <h6>More Information</h6>
                 <ul>
                     <li class="list-unstyled d-flex flex-row">
-                        <i class="bi bi-geo-alt-fill mx-2"></i>
-                        <p>
-                            5191 Eastside Hwy
-                            Stevensville, MT 59870
-                        </p> 
+                        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-geo-alt-fill mx-2"></i>
+                            <p>
+                                5191 Eastside Hwy
+                                Stevensville, MT 59870
+                            </p>
+                        </a>
                     </li>
                     <li class="list-unstyled d-flex flex-row">
-                        <i class="bi bi-envelope-fill mx-2"></i>
-                        <p>info@glamping.global</p>
+                        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-envelope-fill mx-2"></i>
+                            <p>info@glamping.global</p>
+                        </a>
                     </li>
                     <li class="list-unstyled d-flex flex-row2">
-                        <i class="bi bi-telephone-fill mx-2"></i>
-                        <p>Tel: 1-844-WEGLAMP</p> 
+                        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-telephone-fill mx-2"></i>
+                            <p>Tel: 1-844-WEGLAMP</p>
+                        </a> 
                     </li>
                 </ul>
             </div>
         </div>
         <div class="d-flex flex-row flex-wrap justify-content-between align-items-center footer_b p-4">
             <p>Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
-            <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt=""">
+            <a href="https://josesilvera.com/" target="_blank" rel="noopener noreferrer">
+                <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt="">
+            </a>
         </div>
     </footer>
     <script src="./owl/jquery.min.js"></script>
