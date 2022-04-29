@@ -46,20 +46,7 @@ body{
     background: #971F5F17;
 
 }
-.bi-arrow-left-square-fill{
-    font-size: 3em;
-    color: white;
-}
-.bi-arrow-right-square-fill{
-    font-size: 3em;
-    color: white !important;
-}
+.Newsletter_shop{
+    background: #971F5F17;
 
-.owl-carousel .owl-stage {
-    display: flex !important;
-    align-items: center !important;
-  }
-  
-.owl-carousel .caption {
-    text-align: center !important;
 }
