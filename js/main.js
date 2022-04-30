@@ -4,7 +4,7 @@ const prevIcon1 = '<i class="bi bi-caret-left-fill"></i>';
 
 $('.owl-1').owlCarousel({
     loop:true,
-    margin:20,
+    margin:30,
     nav:true,
     navText:[
     ],

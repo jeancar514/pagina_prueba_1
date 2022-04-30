@@ -74,15 +74,14 @@ body{
     outline: none !important;
     border: none !important;
 }
-.btn-link:active {
-    color: #dcdbdb;
-    text-decoration: none;
-    outline: none !important;
-    border: none !important;
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none !important;
 }
 .card-body{
     width: 100%;
-    background: linear-gradient(89.71deg, #30053757 23.22%, #971f5f4a 92.95%);
+    background: white;
     box-shadow: -4px 3px 0px 0px #30053780;
     font-family: Poppins-Bold;
     font-size: 18px;
@@ -91,7 +90,17 @@ body{
     text-align: center;
     color: #971f5f;
     border: none;
+}   
+.accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: #5500C9 !important;
+  } 
+  
+  .btn.focus, .btn:focus {
+    outline: none !important; 
+    box-shadow: none !important;; 
 }
+
 .Newsletter_preguntas_frecuentes{
     background: #971F5F17;
 }

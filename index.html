@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="./owl/owl.theme.default.min.css">
 </head>
 <body>
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+              <filter id="round">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />    
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                  <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+              </filter>
+          </defs>
+    </svg>
     <header class=" container-fluid fixed-top justify-content-between align-items-center header">
         <div class="d-flex flex-row-reverse bd-highlight">
             <div class="header_top d-flex flex-row flex-grow-1 justify-content-center align-items-center">
@@ -74,7 +83,7 @@
     <section class=" d-flex flex-column align-items-end justify-content-center h-100 m-0 hero">
         <video autoplay loop muted pay class="w-100 h-100  position-absolute  ">
             <source src="PRUEBA/IMAGENES/video.mp4" type="video/mp4">
-          </video>
+        </video>
         <div class="hero_panel_color_uno position-absolute h-100">
         </div class>
         <div class="hero_panel_color_dos position-absolute h-100"></div>
@@ -106,44 +115,50 @@
     </section>
     <section class="best_sellers ">
         <div class="d-flex flex-row">
-            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="titulo_img" alt="seccion_titulo_img">
+            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="about_us_titulo_img" alt="seccion_titulo_img">
             <h2 class="seccion_titulo">BEST SELLERS</h2>
         </div>
-        <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="container d-flex flex-column justify-content-center align-items-center my-5">
             <div class=" owl-1 owl-carousel owl-theme  ">
-                <div class="item m-5">
-                    <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
-                        <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
-                        <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
-                            <i class="bi bi-cart "></i>
-                        </div>
-                        <h4>100$</h4>
-                        <div class="best_sellers_card-body ">
-                            Adidas shoes
-                        </div>
-                    </div>
-                </div>
-                <div class="item m-5">
-                    <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
-                        <img src="PRUEBA/IMAGENES/PRODUCTO 2.jpg" class="card-img-top mt-3" alt="...">
-                        <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
-                            <i class="bi bi-cart "></i>
-                        </div>
-                        <h4>100$</h4>
-                        <div class="best_sellers_card-body ">
-                            Sport short
+                <div class="item ">
+                    <div class="container d-flex justify-content-center p-3 ">
+                        <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                            <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
+                            <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                                <i class="bi bi-cart "></i>
+                            </div>
+                            <h4>100$</h4>
+                            <div class="best_sellers_card-body ">
+                                Adidas shoes
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="item m-5">
-                    <div class="card best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
-                        <img src="PRUEBA/IMAGENES/PRODUCTO 3.jpg" class="card-img-top mt-3" alt="...">
-                        <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
-                            <i class="bi bi-cart "></i>
+                <div class="item ">
+                    <div class="container d-flex justify-content-center p-3 ">
+                        <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                            <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
+                            <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                                <i class="bi bi-cart "></i>
+                            </div>
+                            <h4>100$</h4>
+                            <div class="best_sellers_card-body ">
+                                Adidas shoes
+                            </div>
                         </div>
-                        <h4>100$</h4>
-                        <div class="best_sellers_card-body ">
-                            Running T-shirt
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container d-flex justify-content-center p-3 ">
+                        <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                            <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
+                            <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                                <i class="bi bi-cart "></i>
+                            </div>
+                            <h4>100$</h4>
+                            <div class="best_sellers_card-body ">
+                                Adidas shoes
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -218,7 +233,7 @@
     
     <section class="shop_by_category my-5 ">
         <div class="d-flex flex-row">
-            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="titulo_img" alt="titulo_img">
+            <img src="PRUEBA/IMAGENES/Rectangle 5.png" class="about_us_titulo_img" alt="titulo_img">
             <h2 class="shop_by_category_titulo">SHOP BY CATEGORY</h2>
         </div>
         <div class=" shop_by_category_container d-flex flex-row justify-content-center align-items-center ">
@@ -247,11 +262,13 @@
                 </div>
             </div>
         </div>
-        <button class="shop_by_category_boton border-0  position-absolute">
-            View More
-        </button>
+        <div class="shop_by_category_boton_contenedor d-flex flex-row justify-content-end  mx-5">
+            <button class="shop_by_category_boton border-0  ">
+                View More
+            </button>
+        </div>
     </section>
-    <section class="testimonials container-fluid d-flex flex-column pt-5">
+    <section class="testimonials  d-flex flex-column pt-5">
         <div class="testimonials_panel_color_uno">
         </div class>
         <div class="testimonials_panel_color_dos"></div>
@@ -261,7 +278,7 @@
         </div>
         <div class="w-100 d-flex justify-content-center align-items-center" >
             <div class="container-fluid owl-2 owl-carousel owl-theme">
-                <div class="container item d-flex flex justify-content-around py-1">
+                <div class="container testimonials_item item d-flex flex justify-content-around py-1">
                     <div class="w-50 p-5  mt-5 testimonials_informacion">
                         <p class="d-inline" >
                             <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
@@ -275,7 +292,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item d-flex justify-content-around py-1 ">
+                <div class="testimonials_item item d-flex justify-content-around py-1 ">
                     <div class="w-50 p-5  mt-5 testimonials_informacion">
                         <p class="d-inline" >
                             <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
@@ -289,7 +306,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item d-flex justify-content-around py-1 ">
+                <div class="testimonials_item item d-flex justify-content-around py-1 ">
                     <div class="w-50 p-5  mt-5 testimonials_informacion">
                         <p class="d-inline" >
                             <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
