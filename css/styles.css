@@ -800,12 +800,14 @@ footer a:hover{
         letter-spacing: 0.1em;
         padding: 20px !important;
     } 
-    footer ul{ 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .footer_info{ 
+        flex-direction: column !important;
+        justify-content: center !important;
         align-items: center;
 
+    }
+    .footer_info div{ 
+        margin-top: 5px !important;
     }
 }
 @media screen and (max-width: 500px){
