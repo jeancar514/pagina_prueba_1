@@ -41,6 +41,9 @@ body{
     color: #971F5F;
 
 }
+.about_informacion article{
+    margin-top:30px ;
+}
 .about_informacion article h6{
     font-family: Poppins-ExtraBoldItalic;
     font-size: 25px;
