@@ -839,6 +839,9 @@ footer a:hover{
         top: 145px;
         left: 170px
     }
+    .hero_top_titulo {
+        line-height: 60px;
+    }
 
 }
 @media screen and (max-width: 470px){
