@@ -121,7 +121,7 @@ video{
     margin: 0px 10px;
 }
 .hero_redes_sociales {
-    margin-right:80%;
+    margin-right:70%;
 }
 .hero_redes_sociales li {
     list-style: none;
@@ -191,6 +191,7 @@ video{
     box-shadow: 0px 4px 4px 0px #00000040;
     transform: skew(-10deg, 0deg);
 }
+
 .best_sellers_card img{
     height: 195px;
     width: 202px !important;
@@ -412,6 +413,7 @@ video{
     margin-top: -20%;
 }
 .shop_by_category_boton{
+    margin-top: 10px;
     height: 52px;
     width: 274px;
     right: 30px;
@@ -438,6 +440,7 @@ video{
 .testimonials{
     margin-top: 100px !important;
     width: 100%;
+    height: 70%;
     border-radius: 0px;
     background: #971F5F17;
 
@@ -480,14 +483,14 @@ video{
 
 }
 .testimonials_panel_color_uno{
-    height: 625px;
+    height: 75%;
     width: 700px;
     border-radius: 0px;
     background: linear-gradient(180deg, #300537 16.04%, #971F5F 116.04%);
     clip-path: polygon(100% 0, 100% 42%, 67% 100%, 0 100%, 58% 0);
     position: absolute;
     right: 0px;
-    margin-top: -65px;
+    margin-top: -7%;
 }
 .testimonials_panel_color_dos{
     height: 300px;
@@ -681,26 +684,6 @@ footer a:hover{
     }
     .shop_by_category_card{
         margin-top: 30px !important;
-    }
-    .testimonials{
-        flex-wrap: wrap;
-
-    }
-    .testimonials_panel_color_uno{
-        height: 530px;
-        width: 300px;
-        margin-top: -70px;
-    }
-    .about_us_caracteristicas{
-        width: 526px;
-    }
-    .bi-arrow-left-square-fill{
-        font-size: 3em;
-        color: #971F5F;
-    }
-    .bi-arrow-right-square-fill{
-        font-size: 3em;
-        color: #971F5F;
     }
     .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
         display: block !important;

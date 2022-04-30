@@ -122,6 +122,16 @@ body{
 }
 
 @media screen and (max-width: 800px){
+    .about_caracteristicas {
+        width: 200px; 
+    }
+    .about_caracteristicas ul{
+        flex-direction: column !important; 
+    }
+    .about_caracteristicas ul li{
+        flex-direction: column !important; 
+}
+/* @media screen and (max-width: 800px){
     .about_caracteristicas ul{
         flex-direction: column !important; 
     }
@@ -190,4 +200,4 @@ body{
         height: 30px !important;
         width: 60px !important;
     }
-}
+} */
