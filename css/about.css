@@ -26,10 +26,30 @@ body{
     font-family: Poppins-Bold;
     src: url('../PRUEBA/FUENTES/Poppins-Bold.ttf');
 }
+
+/*-----hero section-----*/
+
+.hero{
+    height: 60vh !important;
+}
+.hero_panel_color_uno{
+    height: 60% !important;
+}
+.hero_panel_color_dos{
+    height: 60% !important;
+}
+video{
+    height: 60vh;
+}
+
+/*--------main----------*/
+
+
+
 /*------ About Us ------*/
 
 .about_contenido_contenedor{ 
-    margin-top: 10%;
+    margin-top: 4%;
 }
 .about_titulo{
     font-family: Poppins-BoldItalic;

@@ -27,8 +27,23 @@ body{
     src: url('../PRUEBA/FUENTES/Poppins-Bold.ttf');
 }
 
+/*-----hero section-----*/
+
+.hero{
+    height: 60vh !important;
+}
+.hero_panel_color_uno{
+    height: 60% !important;
+}
+.hero_panel_color_dos{
+    height: 60% !important;
+}
+video{
+    height: 60vh;
+}
+/*-----preguntas section-----*/
 .preguntas_frecuentes{
-    margin: 100px 0px !important;
+    margin: 50px 0px !important;
 }
 .preguntas_frecuentes_titulo{
     font-family: Poppins-BoldItalic;
@@ -62,19 +77,12 @@ body{
     border: none !important;
     outline: none !important;
 }
-.btn-link:hover {
-    color: #dcdbdb;
+.btn:hover {
+    color: #dcdbdb !important;
     text-decoration: none;
     outline: none !important;
     border: none !important;
 }
-.btn-link:active {
-    color: #dcdbdb;
-    text-decoration: none;
-    outline: none !important;
-    border: none !important;
-}
-
 .myaccordion .card,
 .myaccordion .card:last-child .card-header {
   border: none !important;

@@ -1,8 +1,9 @@
 const header = document.querySelector('.header');
 const headerTopNav = document.querySelectorAll('.header_top_nav');
-console.log(headerTopNav);
+const main = document.querySelector('.main');
+console.log(((0.6*window.screen.height) - header.clientHeight ));
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 720) {
+    if (window.scrollY > ((0.6*window.screen.height) - header.clientHeight )) {
         header.classList.add('header_color');
         headerTopNav.forEach(item => { 
             item.classList.add('header_top_nav_color');

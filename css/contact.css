@@ -26,14 +26,23 @@ body{
     font-family: Poppins-Bold;
     src: url('../PRUEBA/FUENTES/Poppins-Bold.ttf');
 }
-.contact_titulo{
-    font-family: Poppins-BoldItalic;
-    font-size: 50px;
-    line-height: 68px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #971F5F;
+
+/*-----hero section-----*/
+
+.hero{
+    height: 60vh !important;
 }
+.hero_panel_color_uno{
+    height: 60% !important;
+}
+.hero_panel_color_dos{
+    height: 60% !important;
+}
+video{
+    height: 60vh;
+}
+/*---------- contacto ---------------*/ 
+
 
 .titulo_img {
     height: 50px !important;
@@ -42,11 +51,11 @@ body{
 
 
 .contacto input{
-    height: 80px;
+    height: 50px;
     background-color: #31313120 !important;
     box-shadow: -4px 3px 0px 0px #30053780 !important;
     font-family: Poppins-Bold;
-    font-size: 25px;
+    font-size: 17px;
     line-height: 38px;
     letter-spacing: 0.1em;
 
@@ -58,7 +67,7 @@ body{
     border: none;
     outline: none;
     font-family: Poppins-Bold;
-    font-size: 25px;
+    font-size: 17px;
     line-height: 38px;
     letter-spacing: 0.1em;
 }

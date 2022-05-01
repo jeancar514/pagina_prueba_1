@@ -26,6 +26,21 @@ body{
     font-family: Poppins-Bold;
     src: url('../PRUEBA/FUENTES/Poppins-Bold.ttf');
 }
+/*-----hero section-----*/
+
+.hero{
+    height: 60vh !important;
+}
+.hero_panel_color_uno{
+    height: 60% !important;
+}
+.hero_panel_color_dos{
+    height: 60% !important;
+}
+video{
+    height: 60vh;
+}
+/*-------------- Shop -----------*/
 .shop_titulo{
     font-family: Poppins-BoldItalic;
     font-size: 45px;
