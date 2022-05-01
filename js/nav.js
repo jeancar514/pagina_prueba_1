@@ -3,11 +3,12 @@ const hero = document.querySelector('.hero');
 const headerTopNav = document.querySelectorAll('.header_top_nav');
 const main = document.querySelector('.main');
 let heroTamaño ;
-console.log((0.9*window.screen.height) < hero.clientHeight)
-if((0.9*window.screen.height) < hero.clientHeight) {
-    heroTamaño= window.screen.height - header.clientHeight;
+console.log((0.8*window.screen.availHeight) < hero.clientHeight)
+console.log(hero.clientHeight)
+if((0.8*window.screen.height) < hero.clientHeight) {
+    heroTamaño= window.screen.height*0.8 ;
 } else {
-    heroTamaño = window.screen.height*0.6 - header.clientHeight;
+    heroTamaño = window.screen.height*0.4 ;
 }
 window.addEventListener('scroll', () => {
     if (window.scrollY > heroTamaño) {

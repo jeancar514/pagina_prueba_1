@@ -135,15 +135,6 @@ video{
     color: #da117c;
 }
 
-/*----------- SECCIONES  -----------*/
-.seccion_titulo{
-    font-family: Poppins-BoldItalic;
-    font-size: 40px;
-    line-height: 60px;
-    letter-spacing: 0em;
-    color: #971F5F;
-    margin-left: 5%;
-}
 
 /*------ Best seller ------*/
 @font-face {
@@ -238,13 +229,9 @@ video{
 }
 
 /*------ About Us ------*/
-.about_us{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+
 .about_us_contenido_contenedor{
     width: 90%;
-    height: 700px;
     background: linear-gradient(82.98deg, #681240 40.89%, #971F5F 77.42%);
     padding: 50px 0px;
     padding-right: 30%; 
@@ -307,7 +294,7 @@ video{
 
 .about_us_img{
     position: absolute;
-    height: 85%;
+    height: 75%;
     width: 45%;
     right: 0px;
     margin-bottom:50px ;
@@ -435,9 +422,9 @@ video{
 /*------- Testimonials -------*/
 
 .testimonials{
-    margin-top: 100px !important;
+    margin-top: 10px !important;
     width: 100%;
-    height: 39rem;
+    height: 28rem;
     border-radius: 0px;
     background: #971F5F17;
 
@@ -465,8 +452,8 @@ video{
     text-align: justify;
 }
 .testimonials_informacion button{
-    height: 52px;
-    width: 274px;
+    height: 42px;
+    width: 254px;
     border-radius: 15px;
     background: #971F5F;
     box-shadow: -4px 3px 0px 0px #30053780;
@@ -480,18 +467,18 @@ video{
 
 }
 .testimonials_panel_color_uno{
-    height: 42rem;
+    height: 30rem;
     width: 35rem;
     border-radius: 0px;
     background: linear-gradient(180deg, #300537 16.04%, #971F5F 116.04%);
     clip-path: polygon(100% 0, 100% 42%, 67% 100%, 0 100%, 58% 0);
     position: absolute;
     right: 0px;
-    margin-top: -6rem;
+    margin-top: -3rem;
 }
 .testimonials_panel_color_dos{
-    height: 16rem;
-    width: 8rem;
+    height: 7rem;
+    width: 5rem;
     border-radius: 0px;
     background: linear-gradient(180deg, #300537 16.04%, #971F5F 116.04%);
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
@@ -500,31 +487,31 @@ video{
     margin-top: 20rem;
 
 }
-.testimonials_boton{
-    margin-top: 20px;
-    height: 52px;
-    width: 274px;
-    border-radius: 15px;
-    background: #FF9900;
-    box-shadow: -4px 3px 0px 0px #30053780;
-    font-family: Poppins-ExtraBoldItalic;
-    font-size: 25px;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
-    box-shadow: 2px 2px 0px 0px #00000033;
-    transform: skew(-20deg, 0deg);
+
+.testimonials_boton {
+    cursor: pointer !important;
+    margin-top: -5rem;
+    margin-left: -30%;
+    z-index: 100 !important;
 }
-.testimonials_boton:hover{
-    background-color: #da117c !important;
+.testimonials_container{
+    margin-top: -4% !important;
+}
+
+.testimonials_titulo_img{
+    left: 0px;
 }
 
 .testimonials_card{
-    margin-top: 20px;
+    height: 300px !important;
+    width: 220px !important;
 }
-.testimonials_titulo_img{
-    left: 0px;
+.testimonials_card-body{
+    width: 210px !important;
+}
+
+.testimonials.owl-stage-outer{
+    height: 19rem ;
 }
 .owl-dots{
     display: none;
@@ -552,6 +539,7 @@ video{
     background: #e6e4e4;
     border: none;
     transform: skew(-20deg, 0deg);
+    margin: 10px 0px;
 }
 .Subscribe_to_Newsletter form div button{
     height: 52px;
@@ -590,7 +578,9 @@ video{
     list-style: none;
     align-items: center;
 }
-
+.footer_info div ul li a{
+    text-decoration: none;
+}
 .footer_info div{
     flex-grow: 1;
 }
@@ -619,6 +609,7 @@ video{
 }
 .footer_b{
     background: #300537;
+    
 }
 .footer_b p{
     color: white;
@@ -650,8 +641,19 @@ footer a:hover{
 .owl-dots{
     display: none !important;
 }
-
-
+.owl-next:hover{
+    background-color: transparent !important;
+}
+.owl-prev:hover{
+    background-color: transparent !important;
+    color: #da117c;
+}
+.owl-next i:hover{
+    color: #da117c;
+}
+.owl-prev i:hover{
+    color: #da117c;
+}
 @media screen and (max-width: 1200px){
 
     .shop_by_category_card_img{
@@ -671,16 +673,7 @@ footer a:hover{
     }
 }
 @media screen and (max-width: 1000px) {
-    .testimonials {
-        height: 42rem;
-    }
-    .testimonials_panel_color_uno{
-        height: 45rem;
-       
-    }
-    .testimonials_panel_color_dos{
-        height: 19rem;     
-    }
+    
     .about_us_caracteristicas {
         height: 115px;
         width: 350px;
@@ -690,6 +683,12 @@ footer a:hover{
     }
     .about_us_caracteristicas ul li{
         flex-direction: column !important;
+    }
+    .testimonials_panel_color_uno{
+        width: 30rem;
+    }
+    .testimonials_panel_color_dos{
+        width: 4rem;
     }
 }
 @media screen and (max-width: 950px){
@@ -712,31 +711,51 @@ footer a:hover{
     .shop_by_category_boton_contenedor{
         justify-content: center !important;
         margin-top: 20px;
+    }
+    .shop_by_category_boton{
+        margin-right:0px ;
     } 
 }
 @media screen and (max-width: 800px){
     .testimonials_item{
-        flex-direction: column !important;
+        flex-direction: column-reverse !important;
         justify-content: center;
         align-items: center;
     }
+    .testimonials_boton {
+        margin-top: -8rem;
+        margin-left: 0%;
+    }
+    .w-50 {
+        width: 100%!important;
+    }
+    .testimonials_container{
+        margin-top: 1% !important;
+    }
     .testimonials_informacion{
-        margin-top: 0px !important;
+        margin-top: 30px !important;
         background-color: #68124083;
         color: white;
         letter-spacing: 0.1em;
         padding: 20px !important;
     }
     .testimonials {
-        height: 68rem;
+        height: 50rem;
     }
     .testimonials_panel_color_uno{
-        height: 71rem;
+        height: 52rem;
        
     }
     .testimonials_panel_color_dos{
         margin-top: 31rem;
-        height: 34rem;     
+        height: 18rem;     
+    }
+
+    .testimonials.owl-stage-outer{
+        height: 38rem ;
+    }
+    .owl-nav{
+        margin-right: 38%;
     }
     .about_us {
         flex-direction: column;
@@ -769,14 +788,11 @@ footer a:hover{
         margin-right: 40%;
         z-index: 100;
     }
-    .w-50 {
-        width: 100%!important;
-    }
     .testimonials_informacion button{
         width: 200px;
     }
     .testimonials {
-        height: 60rem;
+        height: 48rem;
     }
     .testimonials_panel_color_uno{
         display: none;
@@ -788,6 +804,9 @@ footer a:hover{
     .owl-nav{
         margin-right: 35%;
     }
+    .testimonials .owl-stage-outer{
+        height: 36rem ;
+    }
     .bi-caret-right-fill {
         color: #971F5F;
     }
@@ -798,7 +817,6 @@ footer a:hover{
         background-color: transparent;
         color: #971F5F;
         letter-spacing: 0.1em;
-        padding: 20px !important;
     } 
     .footer_info{ 
         flex-direction: column !important;
@@ -821,9 +839,6 @@ footer a:hover{
     }
     .mb-3{
         margin-bottom: 0px !important;
-    }
-    .Subscribe_to_Newsletter form input{
-        margin-bottom: 15px;
     }
     .testimonials_titulo, 
     .about_us_titulo ,
@@ -854,14 +869,8 @@ footer a:hover{
 
 }
 @media screen and (max-width: 470px){
-    #nav_logo{
-        width: 80px;
-    }
     .hero_top_boton{
         width: 200px !important;
-    }
-    .testimonials {
-        height: 69rem;
     }
     .about_us_caracteristicas ul {
         flex-direction: column !important;
@@ -870,5 +879,11 @@ footer a:hover{
         height: max-content;
         width: max-content;
         padding: 5px ;
+    }
+    .testimonials .owl-stage-outer{
+        height: 44rem ;
+    }
+    .testimonials{
+        height: 56rem;
     }
 }
