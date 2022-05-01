@@ -1,15 +1,16 @@
 const header = document.querySelector('.header');
+const hero = document.querySelector('.hero');
 const headerTopNav = document.querySelectorAll('.header_top_nav');
 const main = document.querySelector('.main');
 let heroTamaño ;
-if((0.8*window.screen.height) < header.clientHeight) {
-    heroTamaño= window.screen.height;
+console.log((0.9*window.screen.height) < hero.clientHeight)
+if((0.9*window.screen.height) < hero.clientHeight) {
+    heroTamaño= window.screen.height - header.clientHeight;
 } else {
-    heroTamaño = window.screen.height*0.45;
+    heroTamaño = window.screen.height*0.6 - header.clientHeight;
 }
-
 window.addEventListener('scroll', () => {
-    if (window.scrollY > ((heroTamaño) - header.clientHeight )) {
+    if (window.scrollY > heroTamaño) {
         header.classList.add('header_color');
         headerTopNav.forEach(item => { 
             item.classList.add('header_top_nav_color');
