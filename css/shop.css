@@ -65,6 +65,9 @@ video{
     background: #971F5F17;
 
 }
+.shop_card-body{
+    height: max-content !important;
+}
 
 @media screen and (max-width: 500px){
     .best_sellers_card{
