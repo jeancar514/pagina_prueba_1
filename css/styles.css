@@ -64,7 +64,6 @@ video{
 .hero_top_titulo{
     font-family: Poppins-ExtraBoldItalic;
     font-size: 80px;
-    line-height: 120px;
     letter-spacing: 0em;
     text-align: right;
     color: #FFFFFF;
@@ -526,7 +525,6 @@ video{
 .Subscribe_to_Newsletter h2{
     font-family: Poppins-BoldItalic;
     font-size: 40px;
-    line-height: 68px;
     letter-spacing: 0em;
     text-align: left;
     color:#971F5F;
@@ -548,8 +546,7 @@ video{
     background: #FF9900;
     box-shadow: -4px 3px 0px 0px #30053780;
     font-family: Poppins-ExtraBoldItalic;
-    font-size: 25px;;
-    line-height: 38px;
+    font-size: 25px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
@@ -587,7 +584,6 @@ video{
 .footer_info div h6{
     font-family: Poppins-Bold;
     font-size: 20px;
-    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     color: white;

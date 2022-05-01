@@ -45,14 +45,7 @@ video{
 .preguntas_frecuentes{
     margin: 50px 0px !important;
 }
-.preguntas_frecuentes_titulo{
-    font-family: Poppins-BoldItalic;
-    font-size: 50px;
-    line-height: 68px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #971F5F;
-}
+
 .card-header {
     width: 100%;
     border-radius: 15px;
@@ -70,7 +63,6 @@ video{
     width: 100%;
     font-family: Poppins-BoldItalic;
     font-size: 25px;
-    line-height: 38px;
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
@@ -93,7 +85,6 @@ video{
     box-shadow: -4px 3px 0px 0px #30053780;
     font-family: Poppins-Bold;
     font-size: 18px;
-    line-height: 38px;
     letter-spacing: 0.1em;
     text-align: center;
     color: #971f5f;
@@ -111,4 +102,12 @@ video{
 
 .Newsletter_preguntas_frecuentes{
     background: #971F5F17;
+}
+@media screen and (max-width: 550px) {
+    .btn {
+        font-size: 15px;
+    }
+    .card-body{
+        font-size: 13px;
+    }   
 }
