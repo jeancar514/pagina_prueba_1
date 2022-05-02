@@ -90,10 +90,12 @@ video{
     margin-right:15%;
     transform: skew(-20deg, 0deg);
 }
+
 .hero_top_boton:hover{
     background: #ff790c;
 }
 .hero_panel_color_uno{
+    display: none;
     width: 60%;
     right: 0px;
     top: 0px;
@@ -885,6 +887,13 @@ footer a:hover{
     }
     .footer_info div{ 
         margin-top: 5px !important;
+    }
+}
+@media screen and (max-width: 575px){
+    .navbar-collapse{
+        background-color: rgba(255, 255, 255, 0.308);
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
     }
 }
 @media screen and (max-width: 500px){
