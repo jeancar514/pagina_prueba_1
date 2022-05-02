@@ -501,14 +501,14 @@ video{
     height: 30rem;
 }
 .testimonials_panel_color_dos{
-    height: 7rem;
+    height: 9rem;
     width: 5rem;
     border-radius: 0px;
     background: linear-gradient(180deg, #300537 16.04%, #971F5F 116.04%);
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     position: absolute;
     right: 0px;
-    margin-top: 20rem;
+    margin-top: 18rem;
 
 }
 
