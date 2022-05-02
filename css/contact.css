@@ -29,7 +29,7 @@ body{
 
 /*-----hero section-----*/
 .hero_panel_color_uno{
-    right: 60px;
+    right: 175px !important;; 
 }
 
 .hero{
