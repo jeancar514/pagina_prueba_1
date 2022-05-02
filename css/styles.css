@@ -96,12 +96,12 @@ video{
     background: #ff790c;
 }
 .hero_panel_color_uno{
-    width: 40%;
+    width: 30%;
     right: 170px;
     top: 0px;
     background: linear-gradient(180deg, rgba(48, 5, 55, 0.8) 0%, rgba(151, 31, 95, 0.8) 100%);
     border-radius: 20px; 
-    transform: skew(-20deg, 0deg);
+    transform: skew(-30deg, 0deg);
 }
 .hero_panel_color_dos{
     right: 0px;
