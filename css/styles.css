@@ -553,6 +553,7 @@ video{
 }
 .testimonials_card-body{
     width: 210px !important;
+    margin-top: 100% !important;
 }
 
 .testimonials.owl-stage-outer{
@@ -979,6 +980,9 @@ footer a:hover{
     }
     .hero_top_titulo {
         line-height: 60px;
+    }
+    .testimonials_card-body {
+        margin-top: 95% !important;
     }
 
 }
