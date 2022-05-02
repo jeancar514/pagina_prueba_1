@@ -40,6 +40,9 @@ body{
 video{
     height: 60vh;
 }
+.hero_panel_color_uno{
+    right: 60px;
+}
 /*-------------- Shop -----------*/
 .shop_titulo{
     font-family: Poppins-BoldItalic;

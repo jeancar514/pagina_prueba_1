@@ -28,6 +28,9 @@ body{
 }
 
 /*-----hero section-----*/
+.hero_panel_color_uno{
+    right: 60px;
+}
 
 .hero{
     height: 60vh !important;

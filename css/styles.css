@@ -54,6 +54,7 @@ nav .collapse{
 
 /*----- hero */
 
+
 video{
     z-index: -1;
     object-fit: cover;
@@ -95,24 +96,25 @@ video{
     background: #ff790c;
 }
 .hero_panel_color_uno{
-    display: none;
-    width: 60%;
-    right: 0px;
+    width: 40%;
+    right: 170px;
     top: 0px;
     background: linear-gradient(180deg, rgba(48, 5, 55, 0.8) 0%, rgba(151, 31, 95, 0.8) 100%);
-    clip-path: polygon(60% 0, 100% 0, 100% 100%, 0 100%);
+    border-radius: 20px; 
+    transform: skew(-20deg, 0deg);
 }
 .hero_panel_color_dos{
-    width: 40%;
     right: 0px;
+    width: 40%;
     top: 0px;
-    background: linear-gradient(180deg, rgba(48, 5, 55, 0.8) 0%, rgba(151, 31, 95, 0.8) 100%);
+    background: linear-gradient(180deg, rgb(48, 5, 55) 0%, rgb(151, 31, 95) 100%);
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%);
 }
 .hero_redes_sociales_item{
     height: 40px !important;
     width: 40px !important;
     border-radius: 10px;
+    z-index: 10;
 }
 .hero_redes_sociales_item i{
     font-size: 25px;
@@ -243,11 +245,14 @@ video{
 /*------ About Us ------*/
 
 .about_us_contenido_contenedor{
-    width: 90%;
+    height: 564px;
+    width: 80%;
     background: linear-gradient(82.98deg, #681240 40.89%, #971F5F 77.42%);
     padding: 50px 0px;
-    padding-right: 20%; 
-    clip-path: polygon(0 1%, 100% 0, 70% 100%, 0% 100%);
+    padding-right: 0%; 
+    transform: skew(-20deg, 0deg);
+    border-radius: 0px 0px 50px 0px;; 
+    
 }
 
 .about_us_titulo{
@@ -260,10 +265,19 @@ video{
     color: #FFFFFF;
 
 }
+.cuadrado{
+    height: 564px;
+    width: 30%;
+    background:#681240 40.89%;
+}
+.contenedor_titulo{
+    transform: skew(20deg, 0deg);
+}
 .about_us_informacion{
     margin-top: 20px ;
     width: 90%;
     padding-right: 25%;
+    transform: skew(20deg, 0deg);
 }
 .about_us_informacion article h6{
     font-family: Poppins-ExtraBoldItalic;
@@ -734,6 +748,9 @@ footer a:hover{
     .linea6{
         margin-top: 28rem;
     }
+    .about_us_contenido_contenedor{
+        height: 100%;
+    }
 }
 @media screen and (max-width: 1000px) {
     
@@ -775,7 +792,52 @@ footer a:hover{
         margin-top: 56rem;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
+    .about_us {
+        flex-direction: column;
+    }
+    .svg{
+        display: none;
+    }
+    .about_us_caracteristicas {
+        position: relative;
+        margin: 0px;
+    }
+    .about_us_informacion{
+        transform: none;
+    }
+    .about_us_contenido_contenedor{
+        width: 100%;
+        height: max-content;
+        transform: none;
+        border-radius: 0px;
+    }
+
+    .about_us {
+        justify-content: center;
+        align-items: center;
+    }
+    .about_us_informacion{
+        width: 100% !important;
+        padding-right: 0px !important;
+    }
+    .about_us_contenido_contenedor{
+        padding: 50px 0px !important;
+    }
+    .cuadrado{
+        display: none;
+    }
+    .contenedor_titulo{
+        transform: none;
+    }
+}
+@media screen and (max-width: 830px){
+    .hero_panel_color_dos{
+        display: none;
+    }
+    .hero_panel_color_uno{
+        display: none;
+    }
     .testimonials_item{
         flex-direction: column-reverse !important;
         justify-content: center;
@@ -817,32 +879,7 @@ footer a:hover{
     .owl-nav{
         margin-right: 38%;
     }
-    .about_us {
-        flex-direction: column;
-    }
-    .svg{
-        display: none;
-    }
-    .about_us_caracteristicas {
-        position: relative;
-        margin: 0px;
-    }
-    .about_us_contenido_contenedor{
-        width: 100%;
-        height: max-content;
-        clip-path:none;
-    }
-    .about_us {
-        justify-content: center;
-        align-items: center;
-    }
-    .about_us_informacion{
-        width: 100% !important;
-        padding-right: 0px !important;
-    }
-    .about_us_contenido_contenedor{
-        padding: 50px 0px !important;
-    }
+    
 }
 @media screen and (max-width: 650px){
     .hero_redes_sociales {
@@ -891,8 +928,8 @@ footer a:hover{
 }
 @media screen and (max-width: 575px){
     .navbar-collapse{
-        background-color: rgba(255, 255, 255, 0.308);
-        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.349);
+        backdrop-filter: blur(3px);
         border-radius: 5px;
     }
 }

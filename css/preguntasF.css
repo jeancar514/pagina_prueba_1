@@ -41,6 +41,9 @@ body{
 video{
     height: 60vh;
 }
+.hero_panel_color_uno{
+    right: 60px;
+}
 /*-----preguntas section-----*/
 .preguntas_frecuentes{
     margin: 50px 0px !important;
