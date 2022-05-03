@@ -6,7 +6,7 @@ let heroTamaño ;
 console.log((0.8*window.screen.availHeight) < hero.clientHeight)
 console.log(hero.clientHeight)
 if((0.8*window.screen.height) < hero.clientHeight) {
-    heroTamaño= window.screen.height*0.8 ;
+    heroTamaño= window.screen.height*0.9 ;
 } else {
     heroTamaño = window.screen.height*0.4 ;
 }

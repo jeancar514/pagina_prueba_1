@@ -32,11 +32,17 @@ body{
 .hero{
     height: 60vh !important;
 }
+.hero_panel_color_cuadrado{
+    height: 60vh !important;
+    width: 380px;
+    clip-path: polygon(70% 0, 100% 0, 100% 100%, 0 100%);
+}
 .hero_panel_color_uno{
     height: 60vh !important;
 }
 .hero_panel_color_dos{
     height: 60vh !important;
+    right: 180px;
 }
 video{
     height: 60vh;
