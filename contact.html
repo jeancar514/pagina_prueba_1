@@ -128,13 +128,13 @@
             </form>
         </section>
     </main>
-    <footer class="d-flex flex-column ">
-        <div class="footer_info d-flex flex-row   flex-wrap pt-4">
-            <div class="d-flex flex-column justify-content-center align-items-center ">
-                <a href="index.html" target="_blank" rel="noopener noreferrer">
+    <footer class="container-fluid d-flex flex-column ">
+        <div class="row footer_info">
+            <div class=" col-4 my-3 d-flex flex-column justify-content-center align-items-center ">
+                <a class="" href="index.html" target="_blank" rel="noopener noreferrer">
                     <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
                 </a>
-                <ul class="d-flex flex-row list-unstyled">
+                <ul class=" d-flex flex-row list-unstyled m-0">
                     <li class="mx-2">
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                             <i class="bi bi-facebook"></i>
@@ -152,7 +152,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="col-4 my-3 ">
                 <h6>Quick Links</h6>
                 <ul>
                     <li >
@@ -173,7 +173,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="col-4 my-3 ">
                 <h6>More Information</h6>
                 <ul>
                     <li class="list-unstyled d-flex flex-row">
@@ -200,11 +200,13 @@
                 </ul>
             </div>
         </div>
-        <div class="d-flex flex-row flex-wrap justify-content-between align-items-center footer_b p-4">
-            <p>Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
-            <a href="https://josesilvera.com/" target="_blank" rel="noopener noreferrer">
-                <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt="">
-            </a>
+        <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center footer_b p-4">
+            <div class="container d-flex justify-content-between align-items-center">
+                <p class="m-0">Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
+                <a href="https://josesilvera.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt="">
+                </a>
+            </div>
         </div>
     </footer>
     <script src="bootstrap-4.6.1/dist/js/bootstrap.min.js"></script>

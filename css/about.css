@@ -148,6 +148,10 @@ video{
 .Newsletter_about{
     background: #971F5F17;
 }
+.Subscribe_to_Newsletter {
+    margin-top: 0px !important; 
+    margin-bottom: 0px !important; 
+}
 
 @media screen and (max-width: 800px){
     .about_caracteristicas {

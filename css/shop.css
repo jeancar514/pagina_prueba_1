@@ -77,6 +77,10 @@ video{
 .shop_card-body{
     height: max-content !important;
 }
+.Subscribe_to_Newsletter {
+     margin-top: 0px !important; 
+     margin-bottom: 0px !important; 
+}
 
 @media screen and (max-width: 500px){
     .best_sellers_card{

@@ -104,6 +104,10 @@ video{
 .Newsletter_conctact{
     background: #971F5F17;
 }
+.Subscribe_to_Newsletter {
+    margin-top: 0px !important; 
+    margin-bottom: 0px !important; 
+}
 
 @media screen and (max-width: 500px){
 
