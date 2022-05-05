@@ -109,12 +109,25 @@ video{
     box-shadow: none !important;; 
 }
 
-.Newsletter_preguntas_frecuentes{
-    background: #971F5F17;
-}
 .Subscribe_to_Newsletter {
     margin-top: 0px !important; 
     margin-bottom: 0px !important; 
+    background: #971F5F17;
+}
+@media screen and (max-width: 768px){
+    .hero_top_titulo {
+        font-size: 45px;
+    }
+    .hero_top_boton {
+        padding: 5px 20px;
+        font-size: 17px;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .hero_top_titulo {
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 550px) {
     .btn {

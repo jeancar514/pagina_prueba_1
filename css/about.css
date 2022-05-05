@@ -50,6 +50,9 @@ video{
 .hero_panel_color_uno{
     right: 175px !important;; 
 }
+.hero_top_titulo {
+    font-size: 60px;
+}
 /*--------main----------*/
 
 
@@ -72,33 +75,27 @@ video{
     margin-top:30px ;
     text-align: justify;
 }
-.about_informacion article h6{
+.about_informacion article p::first-letter{
     font-family: Poppins-ExtraBoldItalic;
     font-size: 25px;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #7e0131;
-    display: inline !important;
 }
 .about_informacion article p{
     font-family: Ubuntu-BoldItalic;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 24px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: justify;
     display: inline !important;
     color: #7e0131;
 }
 
 .about_boton{
-    height: 52px;
-    width: 274px;
+    padding: 5px 40px;
     border-radius: 15px;
     background: #971F5F;
     box-shadow: -4px 3px 0px 0px #30053780;
     font-family: Poppins-ExtraBoldItalic;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 38px;
     letter-spacing: 0em;
     text-align: center;
@@ -113,6 +110,7 @@ video{
 
 }
 .about_caracteristicas{
+    padding: 2px 100px;
     right: 0px;
     border-radius: 25px;
     background: #FFFFFF;
@@ -145,28 +143,32 @@ video{
     width: 100px !important;
 }
 /*------ -------*/
-.Newsletter_about{
-    background: #971F5F17;
-}
+
 .Subscribe_to_Newsletter {
     margin-top: 0px !important; 
     margin-bottom: 0px !important; 
+    background: #971F5F17;
 }
 
-@media screen and (max-width: 800px){
-    .about_caracteristicas {
-        width: 200px; 
+@media screen and (max-width: 768px){
+    .hero_top_titulo {
+        font-size: 45px;
     }
-    .about_caracteristicas ul{
-        flex-direction: column !important; 
+    .about_caracteristicas{
+        width: min-content;
     }
-    .about_caracteristicas ul li{
-        flex-direction: column !important;
-    } 
+    .hero_top_boton {
+        font-size: 20px;
+    }
+    .hero_top_boton {
+        padding: 5px 20px;
+        font-size: 17px;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .hero_top_titulo {
+        font-size: 30px;
+    }
 }
 
-@media screen and (max-width: 500px){
-    .about_titulo{
-        font-size:30PX;
-    }
-}
