@@ -13,25 +13,14 @@
     <link rel="stylesheet" href="css/shop.css">
 </head>
 <body>
-    <header class=" container-fluid fixed-top justify-content-between align-items-center header">
-        <div class="d-flex flex-row-reverse bd-highlight">
-            <div class="header_top d-flex flex-row flex-grow-1 justify-content-center align-items-center">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row ">
-                    <li class="nav-item d-none d-lg-block">
-                        <a href="https://mail.google.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-envelope-fill header_top_nav"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item d-none d-lg-block">
-                        <a href="https://www.google.com/maps/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-geo-alt-fill header_top_nav"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item  d-none d-lg-block">
-                        <a href="https://web.whatsapp.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-telephone-fill header_top_nav"></i>
-                        </a>
-                    </li>
+       <!-- HEADER -->
+       <header class="header fixed-top">
+        <div class="container">
+            <nav class="row navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand col-md-2 col-3" href="index.html">
+                    <img src="PRUEBA/IMAGENES/LOGO-COLOR2.png" alt="" id="nav_logo">
+                </a>
+                <ul class="navbar-nav  col-3 d-md-none  d-flex flex-row  ">
                     <li class="nav-item">
                         <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
                             <i class="bi bi-search header_top_nav"></i>
@@ -43,14 +32,11 @@
                         </a>
                     </li>
                 </ul> 
-            </div>
-            <nav class="navbar navbar-expand-sm navbar-light flex-grow-1">
-                <div class="container-fluid d-flex justify-content-center align-items-center">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler col-sm-2 col-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse container-fluid d-flex justify-content-center align-items-center"  id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse col-10" id="navbarNav">  
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="about.html">About us</a>
                         </li>
@@ -64,27 +50,55 @@
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-                </div>
+                    <ul class="navbar-nav d-none d-md-flex flex-row">
+                        <li class="nav-item d-none d-lg-block">
+                            <a href="https://mail.google.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-envelope-fill header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.google.com/maps/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-geo-alt-fill header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://web.whatsapp.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-telephone-fill header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-search header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav_redes_sociales" href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-cart header_top_nav"></i>
+                            </a>
+                        </li>
+                    </ul> 
                 </div>
             </nav>
-            <a class="navbar-brand" href="index.html">
-                <img src="PRUEBA/IMAGENES/LOGO-COLOR2.png" alt="" id="nav_logo">
-            </a>
         </div>
     </header>
-    <section class=" d-flex flex-column align-items-end justify-content-center h-100 m-0 hero">
-        <video autoplay loop muted pay class="w-100   position-absolute  ">
+
+    <!-- HERO -->
+    <section class=" d-flex flex-column align-items-end justify-content-center w-100  hero">
+        <video autoplay loop muted pay class="w-100 position-absolute  ">
             <source src="PRUEBA/IMAGENES/video.mp4" type="video/mp4">
         </video>
-        <div class="hero_panel_color_cuadrado"></div>
-        <div class="hero_panel_color_uno position-absolute h-100"></div>
-        <div class="hero_panel_color_dos position-absolute h-100"></div>
-        <div class="w-100 d-flex flex-column justify-content-center align-items-end hero_top flex-grow-1">
+        <div class="hero_panel_color_cuadrado position-absolute"></div>
+        <div class="hero_panel_color_uno position-absolute h-100 "></div>
+        <div class="hero_panel_color_dos position-absolute h-100 "></div>
+        <div class="container d-flex flex-column justify-content-center align-items-end hero_top flex-grow-1">
             <h1 class="hero_top_titulo">
-                Shop By
+                Lead the pack! <br> Run Run!
             </h1>
+            <button class="hero_top_boton">
+                Get Started
+            </button>
         </div>
-        <ul class="hero_redes_sociales d-flex flex-row ">
+        <ul class="hero_redes_sociales container d-flex flex-row justify-content-center justify-content-md-start ">
             <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-facebook"></i> 

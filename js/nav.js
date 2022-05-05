@@ -6,9 +6,9 @@ let heroTamaño ;
 console.log((0.8*window.screen.availHeight) < hero.clientHeight)
 console.log(hero.clientHeight)
 if((0.8*window.screen.height) < hero.clientHeight) {
-    heroTamaño= window.screen.height*0.9 ;
+    heroTamaño= window.screen.height*0.2 ;
 } else {
-    heroTamaño = window.screen.height*0.4 ;
+    heroTamaño = window.screen.height*0.2 ;
 }
 window.addEventListener('scroll', () => {
     if (window.scrollY > heroTamaño) {

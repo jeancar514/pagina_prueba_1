@@ -2,10 +2,15 @@
 const nextIcon1 = '<i class="bi bi-caret-right-fill"></i>';
 const prevIcon1 = '<i class="bi bi-caret-left-fill"></i>';
 
+
+
+
 $('.owl-1').owlCarousel({
     loop:true,
     margin:30,
     nav:true,
+    autoplay:true,
+    autoplayTimeout:1500,
     navText:[
     ],
     responsive:{

@@ -12,25 +12,14 @@
     <link rel="stylesheet" href="./owl/owl.theme.default.min.css">
 </head>
 <body>
-    <header class=" container-fluid fixed-top justify-content-between align-items-center header">
-        <div class="d-flex flex-row-reverse bd-highlight">
-            <div class="header_top d-flex flex-row flex-grow-1 justify-content-center align-items-center">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row ">
-                    <li class="nav-item d-none d-lg-block">
-                        <a href="https://mail.google.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-envelope-fill header_top_nav"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item d-none d-lg-block">
-                        <a href="https://www.google.com/maps/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-geo-alt-fill header_top_nav"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item  d-none d-lg-block">
-                        <a href="https://web.whatsapp.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-telephone-fill header_top_nav"></i>
-                        </a>
-                    </li>
+    <!-- HEADER -->
+    <header class="header fixed-top">
+        <div class="container">
+            <nav class="row navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand col-md-2 col-3" href="index.html">
+                    <img src="PRUEBA/IMAGENES/LOGO-COLOR2.png" alt="" id="nav_logo">
+                </a>
+                <ul class="navbar-nav  col-3 d-md-none  d-flex flex-row  ">
                     <li class="nav-item">
                         <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
                             <i class="bi bi-search header_top_nav"></i>
@@ -42,14 +31,11 @@
                         </a>
                     </li>
                 </ul> 
-            </div>
-            <nav class="navbar navbar-expand-sm navbar-light flex-grow-1">
-                <div class="container-fluid d-flex justify-content-center align-items-center">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler col-sm-2 col-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse container-fluid d-flex justify-content-center align-items-center"  id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse col-10" id="navbarNav">  
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="about.html">About us</a>
                         </li>
@@ -63,22 +49,47 @@
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-                </div>
+                    <ul class="navbar-nav d-none d-md-flex flex-row">
+                        <li class="nav-item d-none d-lg-block">
+                            <a href="https://mail.google.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-envelope-fill header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.google.com/maps/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-geo-alt-fill header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://web.whatsapp.com/" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-telephone-fill header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-search header_top_nav"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav_redes_sociales" href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-cart header_top_nav"></i>
+                            </a>
+                        </li>
+                    </ul> 
                 </div>
             </nav>
-            <a class="navbar-brand" href="index.html">
-                <img src="PRUEBA/IMAGENES/LOGO-COLOR2.png" alt="" id="nav_logo">
-            </a>
         </div>
     </header>
-    <section class=" d-flex flex-column align-items-end justify-content-center h-100 m-0 hero">
+
+    <!-- HERO -->
+    <section class=" d-flex flex-column align-items-end justify-content-center h-100 w-100 hero">
         <video autoplay loop muted pay class="w-100 h-100  position-absolute  ">
             <source src="PRUEBA/IMAGENES/video.mp4" type="video/mp4">
         </video>
-        <div class="hero_panel_color_cuadrado"></div>
+        <div class="hero_panel_color_cuadrado position-absolute"></div>
         <div class="hero_panel_color_uno position-absolute h-100 "></div>
         <div class="hero_panel_color_dos position-absolute h-100 "></div>
-        <div class="w-100 d-flex flex-column justify-content-center align-items-end hero_top flex-grow-1">
+        <div class="container d-flex flex-column justify-content-center align-items-end hero_top flex-grow-1">
             <h1 class="hero_top_titulo">
                 Lead the pack! <br> Run Run!
             </h1>
@@ -86,7 +97,7 @@
                 Get Started
             </button>
         </div>
-        <ul class="hero_redes_sociales d-flex flex-row  ">
+        <ul class="hero_redes_sociales container d-flex flex-row justify-content-center justify-content-md-start ">
             <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-facebook"></i> 
@@ -104,59 +115,69 @@
             </li>
         </ul>
     </section>
+
+    <!-- SECCIONES -->
     <main>
-        <section class="best_sellers ">
+        <!-- BEST SELLERS -->
+        <section class="best_sellers">
             <img src="PRUEBA/IMAGENES/Line 7.svg" class="position-absolute linea9" alt="" srcset="">
             <img src="PRUEBA/IMAGENES/Line 6.svg" class="position-absolute linea10" alt="" srcset="">
             <img src="PRUEBA/IMAGENES/Line 7.svg" class="position-absolute linea7" alt="" srcset="">
             <img src="PRUEBA/IMAGENES/Line 6.svg" class="position-absolute linea8" alt="" srcset="">
             <div class="d-flex flex-row">
-                <img src="PRUEBA/IMAGENES/Rectangle 5.svg" class="about_us_titulo_img" alt="seccion_titulo_img">
-                <h2 class="best_sellers_titulo container">BEST SELLERS</h2>
+                <img src="PRUEBA/IMAGENES/Rectangle 5.svg" class="col-3 col-md-2 col-xl-1 pl-0" alt="seccion_titulo_img">
+                <h2 class="secciones_titulo container">BEST SELLERS</h2>
             </div>
             <div class="container d-flex flex-column justify-content-center align-items-center ">
                 <div class=" owl-1 owl-carousel owl-theme  ">
-                    <div class="item ">
-                        <div class="container d-flex justify-content-center p-3 ">
-                            <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
-                                <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
-                                <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
-                                    <i class="bi bi-cart "></i>
-                                </div>
-                                <h4>100$</h4>
-                                <div class="best_sellers_card-body ">
-                                    Adidas shoes
+                    <div class="item">
+                        <a href="shop.html">
+                            <div class="container d-flex justify-content-center p-3 ">
+                                <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                                    <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
+                                    <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-cart "></i>
+                                    </div>
+                                    <h4>100$</h4>
+                                    <div class="best_sellers_card-body ">
+                                        Adidas shoes
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
+
                     </div>
                     <div class="item ">
-                        <div class="container d-flex justify-content-center p-3 ">
-                            <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
-                                <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
-                                <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
-                                    <i class="bi bi-cart "></i>
-                                </div>
-                                <h4>100$</h4>
-                                <div class="best_sellers_card-body ">
-                                    Adidas shoes
+                        <a href="shop.html">
+                            <div class="container d-flex justify-content-center p-3 ">
+                                <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                                    <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
+                                    <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-cart "></i>
+                                    </div>
+                                    <h4>100$</h4>
+                                    <div class="best_sellers_card-body ">
+                                        Adidas shoes
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="item">
-                        <div class="container d-flex justify-content-center p-3 ">
-                            <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
-                                <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
-                                <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
-                                    <i class="bi bi-cart "></i>
-                                </div>
-                                <h4>100$</h4>
-                                <div class="best_sellers_card-body ">
-                                    Adidas shoes
+                        <a href="shop.html">
+                            <div class="container d-flex justify-content-center p-3 ">
+                                <div class="card m-0  best_sellers_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
+                                    <img src="PRUEBA/IMAGENES/PRODUCTO 1.jpg" class="card-img-top mt-3" alt="...">
+                                    <div class="icon_carrito position-absolute d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-cart "></i>
+                                    </div>
+                                    <h4>100$</h4>
+                                    <div class="best_sellers_card-body ">
+                                        Adidas shoes
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <button class="best_sellers_boton border-0 ">
@@ -164,20 +185,17 @@
                 </button>
             </div>
         </section>
-        <section class="about_us  d-flex ">
-            <div class="cuadrado position-absolute "></div>
-            <div class=" d-flex flex-row contenedor_titulo_uno position-absolute ">
-                <img src="PRUEBA/IMAGENES/Rectangle 5 (1).svg" class=" about_us_titulo_img" alt="about_us_titulo_img">
-                <h2 class="about_us_titulo">ABOUT US</h2>
-            </div>
-            <div class=" about_us_contenido_contenedor">
-                <div class=" d-flex flex-row contenedor_titulo_dos ">
-                    <img src="PRUEBA/IMAGENES/Rectangle 5 (1).svg" class="about_us_titulo_img" alt="about_us_titulo_img">
-                    <h2 class="about_us_titulo">ABOUT US</h2>
+
+        <!-- ABOUT US  -->
+        <section class="about_us">
+            <div class=" about_us_contenido_contenedor pt-4">
+                <div class="d-flex flex-row">
+                    <img src="PRUEBA/IMAGENES/Rectangle 5 (1).svg" class="col-4 col-md-3 col-xl-2 pl-0" alt="seccion_titulo_img">
+                    <h2 class="secciones_titulo text-white container">BEST SELLERS</h2>
                 </div>
-                <div class=" about_us_informacion">
-                    <article class="">
-                        <p class="parrafo col">
+                <div class=" about_us_informacion container">
+                    <article class="row">
+                        <p class="col parrafo ">
                             We are a leading company in the sports implements 
                             and articles market that seeks to position itself 
                             in the American Continent, providing high-quality 
@@ -189,8 +207,8 @@
                             mental and physical health of our public.
                         </p>
                     </article>
-                    <article class="">
-                        <p class="parrafo col">
+                    <article class="row">
+                        <p class="col parrafo ">
                             We provide solutions in the field of sports at a 
                             national and international level through innovation,
                             service and quality of the products we offer, our 
@@ -200,13 +218,14 @@
                             audience.
                         </p>
                     </article>
-                    <div class=" d-flex justify-content-center align-items-center">
-                        <button class=" about_us_boton">
+                    <div class=" row mt-5">
+                        <button class=" about_us_boton" >
                             Read  More
                         </button>
                     </div>
                 </div>
             </div>
+            <div class="cuadrado position-absolute"></div>
             <img src="PRUEBA/IMAGENES/Rectangle 4.svg" class="svg" alt="">
             <div class="about_us_caracteristicas d-flex flex-row justify-content-center align-items-center">
                 <ul class="d-flex flex-row mb-0">
@@ -231,64 +250,66 @@
                 </ul>
             </div>
         </section>
-        
+
+        <!-- shop by category -->
         <section class="shop_by_category  ">
             <img src="PRUEBA/IMAGENES/Line 7.svg" class="position-absolute linea5" alt="" srcset="">
             <img src="PRUEBA/IMAGENES/Line 6.svg" class="position-absolute linea6" alt="" srcset="">
             <img src="PRUEBA/IMAGENES/Line 7.svg" class="position-absolute linea7" alt="" srcset="">
             <img src="PRUEBA/IMAGENES/Line 6.svg" class="position-absolute linea8" alt="" srcset="">
             <div class="d-flex flex-row">
-                <img src="PRUEBA/IMAGENES/Rectangle 5.svg" class="about_us_titulo_img" alt="titulo_img">
-                <h2 class="shop_by_category_titulo container">SHOP BY CATEGORY</h2>
+                <img src="PRUEBA/IMAGENES/Rectangle 5.svg" class="col-3 col-md-2 col-xl-1 pl-0" alt="seccion_titulo_img">
+                <h2 class="secciones_titulo container">SHOP BY CATEGORY</h2>
             </div>
-            <div class=" shop_by_category_container d-flex flex-row justify-content-center align-items-center ">
-                <div class="shop_by_category_card d-flex flex-column justify-content-between align-items-center ">
-                    <div class="sombra_card1"></div>
-                    <div class="shop_by_category_card_img mx-3">
-                        <img src="PRUEBA/IMAGENES/CATEGORIA 1.jpg" class="card-img-top" alt="...">
-                    </div>
-                    <div class="shop_by_category_card_titulo mt-5">
-                        Shoes
-                    </div>
+            <div class="container">
+                <div class=" shop_by_category_container container row pt-5">
+                    <a href="shop.html" class="shop_by_category_card col-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">
+                        <div class="shop_by_category_card_img ">
+                            <img src="PRUEBA/IMAGENES/CATEGORIA 1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="shop_by_category_card_titulo mt-5">
+                            Shoes
+                        </div>
+                    </a>
+                    <a href="shop.html" class="shop_by_category_card col-12 col-lg-4  d-flex flex-column align-items-center justify-content-center">
+                        <div class="shop_by_category_card_img ">
+                            <img src="PRUEBA/IMAGENES/CATEGORIA 2.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="shop_by_category_card_titulo mt-5">
+                            Sportswear
+                        </div>
+                    </a>
+                    <a href="shop.html" class="shop_by_category_card col-12 col-lg-4  d-flex flex-column align-items-center justify-content-center">
+                        <div class="shop_by_category_card_img ">
+                            <img src="PRUEBA/IMAGENES/CATEGORIA 3.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="shop_by_category_card_titulo mt-5">
+                            T-shirt
+                        </div>
+                    </a>
                 </div>
-                <div class="shop_by_category_card d-flex flex-column justify-content-center align-items-center mx-3">
-                    <div class="sombra_card"></div>
-                    <div class="shop_by_category_card_img mx-4">
-                        <img src="PRUEBA/IMAGENES/CATEGORIA 2.jpg" class="card-img-top" alt="...">
-                    </div>
-                    <div class="shop_by_category_card_titulo mt-5">
-                        Sportswear
-                    </div>
+                <div class="shop_by_category_boton_contenedor row d-flex justify-content-end">
+                    <button class="shop_by_category_boton border-0  ">
+                        View More
+                    </button>
                 </div>
-                <div class="shop_by_category_card d-flex flex-column justify-content-center align-items-center mx-3">
-                    <div class="sombra_card"></div>
-                    <div class="shop_by_category_card_img ">
-                        <img src="PRUEBA/IMAGENES/CATEGORIA 3.jpg" class="card-img-top" alt="...">
-                    </div>
-                    <div class="shop_by_category_card_titulo mt-5">
-                        T-shirt
-                    </div>
-                </div>
-            </div>
-            <div class="shop_by_category_boton_contenedor d-flex flex-row justify-content-end ">
-                <button class="shop_by_category_boton border-0  ">
-                    View More
-                </button>
             </div>
         </section>
+
+        <!-- TESTIMONIALS -->
         <section class="testimonials  d-flex flex-column pt-3">
             <div class="testimonials_panel_color_dos"></div>
             <img src="PRUEBA/IMAGENES/Rectangle_tesimonios.svg" class="testimonials_panel_color_uno" style="position: absolute;  right: 0px; margin-top: -50px;" alt="" srcset="">
             <div class="d-flex flex-row">
-                <img src="PRUEBA/IMAGENES/Rectangle 5.svg" class=" about_us_titulo_img" alt="about_us_titulo_img">
-                <h2 class="testimonials_titulo container">Testimonials</h2>
+                <img src="PRUEBA/IMAGENES/Rectangle 5.svg" class="col-3 col-md-2 col-xl-1 pl-0" alt="seccion_titulo_img">
+                <h2 class="secciones_titulo container">Testimonials</h2>
             </div>
-            <div class="testimonials_container w-100 d-flex flex-column justify-content-center align-items-center" >
-                <div class="container owl-2 owl-carousel owl-theme">
+            <div class="testimonials_container container " >
+                <div class="row owl-2 owl-carousel owl-theme">
                     <div class="container testimonials_item item d-flex flex justify-content-around align-items-center ">
-                        <div class="w-50 testimonials_informacion">
+                        <div class="col-6 testimonials_informacion">
                             <p class="d-inline" >
-                                <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
+                                The products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
                             </p>
                         </div>
                         <div class="card  best_sellers_card testimonials_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
@@ -301,7 +322,7 @@
                     <div class="container testimonials_item item d-flex flex justify-content-around align-items-center ">
                         <div class="w-50 testimonials_informacion">
                             <p class="d-inline" >
-                                <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
+                                The products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
                             </p>
                         </div>
                         <div class="card  best_sellers_card testimonials_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
@@ -314,7 +335,7 @@
                     <div class="container testimonials_item item d-flex flex justify-content-around align-items-center ">
                         <div class="w-50 testimonials_informacion">
                             <p class="d-inline" >
-                                <h6 class="d-inline">T</h6>he products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
+                                The products in this store are the best on the market with tremendous quality that help me feel fresh every time I play sports, I don't have to worry about the material or anything else, they are 100% original products and made of the best materials, I recommend them
                             </p>
                         </div>
                         <div class="card  best_sellers_card testimonials_card d-flex flex-column justify-content-start align-items-center" style="width: 18rem;">
@@ -328,6 +349,8 @@
                 <button class="testimonials_boton best_sellers_boton  border-0 ">View More</button>
             </div>
         </section>
+
+        <!-- Newslette -->
         <section class="Subscribe_to_Newsletter container d-flex flex-column justify-content-center align-items-center my-3  ">
             <img src="PRUEBA/IMAGENES/Line 7.svg" class="position-absolute linea1" alt="" srcset="">
             <img src="PRUEBA/IMAGENES/Line 6.svg" class="position-absolute linea2" alt="" srcset="">
@@ -342,90 +365,101 @@
             </form>
         </section>
     </main>
-    <footer class="container-fluid d-flex flex-column ">
-        <div class="row footer_info">
-            <div class=" col-4 my-3 d-flex flex-column justify-content-center align-items-center ">
-                <a class="" href="index.html" target="_blank" rel="noopener noreferrer">
-                    <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
-                </a>
-                <ul class=" d-flex flex-row list-unstyled m-0">
-                    <li class="mx-2">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-facebook"></i>
+
+    <!-- FOOTER -->
+    <footer class="">
+        <div class=" footer_info">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center ">
+                        <a class="" href="index.html" target="_blank" rel="noopener noreferrer">
+                            <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
                         </a>
-                    </li>
-                    <li class="mx-2">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="mx-2">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-4 my-3 ">
-                <h6>Quick Links</h6>
-                <ul>
-                    <li >
-                        <span class="punto"></span>
-                        <a aria-current="page" href="about.html">About us</a>
-                    </li>
-                    <li >
-                        <span class="punto "></span>
-                        <a  href="shop.html">Shop By</a>
-                    </li>
-                    <li class=>
-                        <span class="punto"></span>
-                        <a  href="preguntasF.html">Faq’s </a>
-                    </li>
-                    <li >
-                        <span class="punto"></span>
-                        <a  href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-4 my-3 ">
-                <h6>More Information</h6>
-                <ul>
-                    <li class="list-unstyled d-flex flex-row">
-                        <a href="https://www.google.com/maps/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-geo-alt-fill mx-2"></i>
-                            <p>
-                                5191 Eastside Hwy
-                                Stevensville, MT 59870
-                            </p>
-                        </a>
-                    </li>
-                    <li class="list-unstyled d-flex flex-row">
-                        <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-envelope-fill mx-2"></i>
-                            <p>info@glamping.global</p>
-                        </a>
-                    </li>
-                    <li class="list-unstyled d-flex flex-row2">
-                        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-telephone-fill mx-2"></i>
-                            <p>Tel: 1-844-WEGLAMP</p>
-                        </a> 
-                    </li>
-                </ul>
+                        <ul class=" d-flex flex-row list-unstyled m-0">
+                            <li class="mx-2">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center">
+                        <h6>Quick Links</h6>
+                        <ul>
+                            <li >
+                                <span class="punto"></span>
+                                <a aria-current="page" href="about.html">About us</a>
+                            </li>
+                            <li >
+                                <span class="punto "></span>
+                                <a  href="shop.html">Shop By</a>
+                            </li>
+                            <li class=>
+                                <span class="punto"></span>
+                                <a  href="preguntasF.html">Faq’s </a>
+                            </li>
+                            <li >
+                                <span class="punto"></span>
+                                <a  href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center">
+                        <h6>More Information</h6>
+                        <ul>
+                            <li class="list-unstyled ">
+                                <a href="https://www.google.com/maps/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-geo-alt-fill mx-2"></i>
+                                    <p>
+                                        5191 Eastside Hwy
+                                        Stevensville, MT 59870
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-envelope-fill mx-2"></i>
+                                    <p>info@glamping.global</p>
+                                </a>
+                            </li>
+                            <li class="list-unstyled d-flex flex-row2">
+                                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-telephone-fill mx-2"></i>
+                                    <p>Tel: 1-844-WEGLAMP</p>
+                                </a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center footer_b p-4">
-            <div class="container d-flex justify-content-between align-items-center">
-                <p class="m-0">Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
-                <a href="https://josesilvera.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt="">
-                </a>
+        <div class="footer_b">
+            <div class="container">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center p-4">
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <p class="m-0">Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
+                        <a href="https://josesilvera.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="PRUEBA/IMAGENES/logo Silvera Enterprises.png" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+
+    <!--javascript-->
     <script src="./owl/jquery.min.js"></script>
     <script src="./owl/owl.carousel.min.js"></script>
-    <script src="bootstrap-4.6.1/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/nav.js"></script>
 </body>
