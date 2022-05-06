@@ -11,6 +11,7 @@ $('.owl-1').owlCarousel({
     nav:true,
     autoplay:true,
     autoplayTimeout:1500,
+    autoplayHoverPause:true,
     navText:[
     ],
     responsive:{
@@ -37,10 +38,14 @@ $('.owl-2').owlCarousel({
     ],
     responsive:{
         0:{
-            items:1
+            items:1,
+            autoplay:true,
+            autoplayTimeout:1500,
+            autoplayHoverPause:true,
         },
-        600:{
-            items:1
+        501:{
+            items:1,
+            autoplay:false,
         },
         1000:{
             items:1

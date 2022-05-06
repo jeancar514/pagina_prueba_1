@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="./font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="boxicons/css/boxicons.min.css">
 </head>
 <body>
        <!-- HEADER -->
-       <header class="header fixed-top">
+    <header class="header fixed-top">
         <div class="container">
             <nav class="row navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand col-md-2 col-3" href="index.html">
                     <img src="PRUEBA/IMAGENES/LOGO-COLOR2.png" alt="" id="nav_logo">
                 </a>
                 <ul class="navbar-nav  col-3 d-md-none  d-flex flex-row  ">
-                    <li class="nav-item">
-                        <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-search header_top_nav"></i>
+                    <li class="nav-item d-flex align-items-end">
+                        <a href="#" class="nav_redes_sociales d-flex align-items-end" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bx-search-alt header_top_nav lupa'></i>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -64,9 +65,9 @@
                                 <i class="bi bi-telephone-fill header_top_nav"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav_redes_sociales" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-search header_top_nav"></i>
+                        <li class="nav-item nav-lupa d-flex align-items-end">
+                            <a href="#" class="nav_redes_sociales d-flex align-items-end" target="_blank" rel="noopener noreferrer">
+                                <i class='bx bx-search-alt header_top_nav lupa'></i>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -81,22 +82,22 @@
     </header>
 
     <!-- HERO -->
-    <section class=" d-flex flex-column align-items-end justify-content-center w-100  hero">
-        <video autoplay loop muted pay class="w-100 position-absolute  ">
+    <section class=" d-flex flex-column align-items-end justify-content-center  w-100 hero">
+        <video autoplay loop muted pay class="w-100   position-absolute  ">
             <source src="PRUEBA/IMAGENES/video.mp4" type="video/mp4">
         </video>
         <div class="hero_panel_color_cuadrado position-absolute"></div>
         <div class="hero_panel_color_uno position-absolute h-100 "></div>
         <div class="hero_panel_color_dos position-absolute h-100 "></div>
-        <div class="container d-flex flex-column justify-content-center align-items-end hero_top flex-grow-1">
-            <h1 class="hero_top_titulo">
-                Contact
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center align-items-lg-end ">
+            <h1 class=" hero_top_titulo mb-4">
+                Contact 
             </h1>
-            <button class="hero_top_boton">
-                Get Started
-            </button>
         </div>
-        <ul class="hero_redes_sociales container d-flex flex-row justify-content-center justify-content-md-start ">
+        <ul class="hero_redes_sociales container pl-0 ml-lg-0 d-flex flex-row justify-content-center justify-content-lg-start ">
+            <li class="d-none align-items-center d-lg-flex">
+                <div class="linea_redes_sociales"></div>
+            </li>
             <li class="hero_redes_sociales_item d-flex justify-content-center align-items-center">
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-facebook"></i> 
@@ -134,22 +135,24 @@
                 </form>
             </div>
         </section>
+        <!-- Newslette -->
         <section class="Subscribe_to_Newsletter container-fluid d-flex flex-column justify-content-center align-items-center my-3  ">
             <h2>Subscribe to Newsletter</h2>
             <form class="container d-flex flex-row flex-wrap justify-content-center align-content-center ">
-                <input type="text" placeholder="" class="mx-1">
+                <input type="text" placeholder="" class="Newsletter_input mx-1 p-3">
                 <div class="d-flex flex-row justify-content-center align-items-center">
                     <button class="mx-2 text-center ">Subscribe</button>
                 </div>
             </form>
         </section>
     </main>
+
 <!-- FOOTER -->
 <footer class="">
     <div class=" footer_info">
         <div class="container">
             <div class="row">
-                <div class=" col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center ">
+                <div class=" col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center align-items-md-start ">
                     <a class="" href="index.html" target="_blank" rel="noopener noreferrer">
                         <img src="PRUEBA/IMAGENES/LOGO-BLNCO.png" alt="" >
                     </a>
@@ -171,7 +174,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center align-items-md-start">
                     <h6>Quick Links</h6>
                     <ul>
                         <li >
@@ -192,8 +195,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center">
-                    <h6>More Information</h6>
+                <div class="col-12 col-md-4 my-3 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                    <div>
+                        <h6 class="">More Information</h6>
                     <ul>
                         <li class="list-unstyled ">
                             <a href="https://www.google.com/maps/" target="_blank" rel="noopener noreferrer">
@@ -217,6 +221,7 @@
                             </a> 
                         </li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -233,7 +238,7 @@
             </div>
         </div>
     </div>
-</footer> 
+</footer>  
     <script src="bootstrap-4.6.1/dist/js/bootstrap.min.js"></script>
     <script src="js/nav.js"></script>
 </body>

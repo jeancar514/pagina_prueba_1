@@ -73,6 +73,7 @@ video{
 
 .shop_card-body{
     height: max-content !important;
+    margin-top: 95%;
 }
 .Subscribe_to_Newsletter {
     margin-top: 0px !important; 
@@ -95,13 +96,14 @@ video{
     }
 }
 @media screen and (max-width: 500px){
+
     .best_sellers_card{
-        width: 240px !important;
+        width: max-content !important;
+        padding: 20px;
         transform: skew(0deg, 0deg);
     }
     .best_sellers_card-body {
-        width: 220px !important;
-        margin-top: 110%;
+        margin-top: 105% !important;
         margin-left: 20%;
     }
 }

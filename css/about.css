@@ -45,7 +45,7 @@ body{
     right: 180px;
 }
 video{
-    height: 60vh;
+    height: 60vh !important;
 }
 .hero_panel_color_uno{
     right: 175px !important;; 
@@ -73,7 +73,6 @@ video{
 }
 .about_informacion article{
     margin-top:30px ;
-    text-align: justify;
 }
 .about_informacion article p::first-letter{
     font-family: Poppins-ExtraBoldItalic;
@@ -84,7 +83,6 @@ video{
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: justify;
     display: inline !important;
     color: #7e0131;
 }
@@ -134,8 +132,6 @@ video{
 .about_caracteristicas ul li div img{
     height: 50px;
     width: 50px;
-    left: 415px;
-    top: 2003px;
     border-radius: 0px;
 }
 .about_titulo_img {
@@ -154,15 +150,29 @@ video{
     .hero_top_titulo {
         font-size: 45px;
     }
-    .about_caracteristicas{
-        width: min-content;
-    }
     .hero_top_boton {
         font-size: 20px;
     }
     .hero_top_boton {
         padding: 5px 20px;
         font-size: 17px;
+    }
+    .about_caracteristicas ul li div{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #681240 0%, #971F5F 100%);
+    }
+    .about_caracteristicas ul li p{
+        font-size: 15px;
+    }
+    .about_caracteristicas ul li div img{
+        height: 30px;
+        width: 30px;
+    }
+    .about_caracteristicas {
+        padding: 2px 10px;
+        padding-bottom: 0px !important;
     }
 
 }
