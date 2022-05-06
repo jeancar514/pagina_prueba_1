@@ -115,11 +115,11 @@ video{
     background: #ff790c;
 }
 .hero_panel_color_cuadrado{
-    width: 500px;
+    width: 450px;
     height: 100vh;
     right: 0px;
     background: linear-gradient(180deg, rgb(48, 5, 55) 0%, rgb(151, 31, 95) 100%);
-    clip-path: polygon(64% 0, 100% 0, 100% 100%, 0% 100%);;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
 }
 .hero_panel_color_uno{
     width: 30%;
@@ -437,7 +437,10 @@ video{
     transform: skew(-10deg, 0deg);
 
 }
-
+.shop_by_category_card_titulo p{
+    margin: 0px;
+    transform: skew(10deg, 0deg);
+}
 .shop_by_category_card:first-child{
     margin-top: 100px;
 }
@@ -569,6 +572,7 @@ video{
     transform: skew(10deg, 0deg) !important;
     width: 170px !important;
     height: 170px !important;
+    object-fit: cover;
 
 }
 .testimonials_card-body{
@@ -627,6 +631,10 @@ video{
     color: white;
     border: none;
     transform: skew(-20deg, 0deg);
+}
+.Subscribe_to_Newsletter form div button p{
+    margin: 0px;
+    transform: skew(20deg, 0deg) !important;
 }
 
 .Subscribe_to_Newsletter form div button:hover{
