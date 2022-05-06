@@ -50,6 +50,10 @@ body{
 video{
     height: 60vh;
 }
+.hero_top_titulo {
+    font-size: 60px;
+    margin-bottom: 0px !important;
+}
 /*---------- contacto ---------------*/ 
 
 

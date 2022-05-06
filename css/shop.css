@@ -49,6 +49,10 @@ video{
 .hero_panel_color_uno{
     right: 175px !important;; 
 }
+.hero_top_titulo {
+    font-size: 60px;
+    margin-bottom: 0px !important;
+}
 /*-------------- Shop -----------*/
 .shop_titulo{
     font-family: Poppins-BoldItalic;
