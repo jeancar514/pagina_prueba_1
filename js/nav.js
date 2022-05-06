@@ -28,4 +28,5 @@ const botonNav = document.querySelector('.navbar-toggler');
 const navbar = document.getElementById('navbarNav');
 botonNav.addEventListener('click', () => {
     navbar.classList.toggle('collapse');
+    navbar.classList.toggle('navbar-collapse_color');
 });
