@@ -77,7 +77,7 @@ video{
 
 .shop_card-body{
     height: max-content !important;
-    margin-top: 95%;
+    margin-top: 95% !important;
 }
 .Subscribe_to_Newsletter {
     margin-top: 0px !important; 
