@@ -148,7 +148,8 @@ video{
 }
 
 @media screen and (max-width: 768px){
-    .hero_top_titulo {
+    .hero_top_titulo { 
+        margin-top: 10% !important;
         font-size: 45px;
     }
     .hero_top_boton {
@@ -177,9 +178,5 @@ video{
     }
 
 }
-@media screen and (max-width: 576px){
-    .hero_top_titulo {
-        font-size: 30px;
-    }
-}
+
 
