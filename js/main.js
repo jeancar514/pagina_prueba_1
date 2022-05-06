@@ -43,7 +43,7 @@ $('.owl-2').owlCarousel({
             autoplayTimeout:1500,
             autoplayHoverPause:true,
         },
-        501:{
+        769:{
             items:1,
             autoplay:false,
         },
